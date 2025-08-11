@@ -1,0 +1,295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 411a368bbb5aae3d52fc759d78a68108, type: 3}
+  m_Name: 'SkillDefine'
+  m_EditorClassIdentifier: 
+  skillPassives:
+  - name: 'Increa Attack'
+    code: 'ADD-ATK'
+    icon: {fileID: 21300000, guid: 2b413abb588645569506bcf1100aa287, type: 3}
+    des: 'Increa your Attack to be stronger'
+    goldUp: 1200
+    rubyUp: 12
+    detailSkill: 'Increa #VALUE attack damage'
+    levelReq: 4
+    skillReq: 'NORMAL-ATK'
+    inGroupSkills:
+    - 'ADD-HP'
+    - 'ADD-DEF'
+    nextSkill:
+    - 'ADD-SPEED'
+    goldUpgrades: '2500,3200,4000,5000,6200,7800,9600,12000,15000,18500'
+    rubyUpgrades: '250,320,400,500,620,780,960,1200,1500,1850'
+    effectValue: 0A0000000A0000000C0000000E00000010000000120000001400000016000000180000001A0000001C000000
+    addType: 2
+    specialDetail: 
+  - name: 'Increa HP'
+    code: 'ADD-HP'
+    icon: {fileID: 21300000, guid: 885b9f49c64d4afa9642bd7d34e31bfc, type: 3}
+    des: 'Increa your HP to be stronger'
+    goldUp: 1200
+    rubyUp: 6
+    detailSkill: 'Increa #VALUE HP'
+    levelReq: 4
+    skillReq: 'NORMAL-ATK'
+    inGroupSkills:
+    - 'ADD-ATK'
+    - 'ADD-DEF'
+    nextSkill:
+    - 'RESTORE-HP'
+    goldUpgrades: '2500,3200,4000,5000,6200,7800,9600,12000,15000,18500'
+    rubyUpgrades: '250,320,400,500,620,780,960,1200,1500,1850'
+    effectValue: 0A0000000A0000000C0000000E00000010000000120000001400000016000000180000001A0000001C000000
+    addType: 0
+    specialDetail: 
+  - name: 'Increa DEF'
+    code: 'ADD-DEF'
+    icon: {fileID: 21300000, guid: 7a04d5eaa8af413b87580a3596ed3e4a, type: 3}
+    des: 'Increa your DEF to be stronger'
+    goldUp: 1200
+    rubyUp: 6
+    detailSkill: 'Increa #VALUE DEF'
+    levelReq: 4
+    skillReq: 'NORMAL-ATK'
+    inGroupSkills:
+    - 'ADD-ATK'
+    - 'ADD-HP'
+    nextSkill:
+    - 'RETURN-DAMAGE'
+    goldUpgrades: '2500,3200,4000,5000,6200,7800,9600,12000,15000,18500'
+    rubyUpgrades: '250,320,400,500,620,780,960,1200,1500,1850'
+    effectValue: 0A0000000A0000000C0000000E00000010000000120000001400000016000000180000001A0000001C000000
+    addType: 1
+    specialDetail: 
+  - name: 'Increa speed'
+    code: 'ADD-SPEED'
+    icon: {fileID: 21300000, guid: 130b05fd0f684d00bf2e38a2561d5957, type: 3}
+    des: 'Increa your speed to be faster'
+    goldUp: 1200
+    rubyUp: 12
+    detailSkill: 'Increa #VALUE SPEED'
+    levelReq: 7
+    skillReq: 'ADD-ATK'
+    inGroupSkills: []
+    nextSkill:
+    - 'FAST-PUNCH'
+    goldUpgrades: '2500,3200,4000,5000,6200,7800,9600,12000,15000,18500'
+    rubyUpgrades: '250,320,400,500,620,780,960,1200,1500,1850'
+    effectValue: 0F0000000F000000100000001100000012000000130000001400000015000000160000001700000018000000
+    addType: 3
+    specialDetail: 
+  - name: 'Restore HP'
+    code: 'RESTORE-HP'
+    icon: {fileID: 21300000, guid: 9f5ddf11c51349cdbb6abf7800f0c05e, type: 3}
+    des: 'Restore 1% HP every 5s'
+    goldUp: 1200
+    rubyUp: 12
+    detailSkill: 'Restore #VALUE HP every 5s'
+    levelReq: 7
+    skillReq: 'ADD-HP'
+    inGroupSkills: []
+    nextSkill:
+    - 'FAST-PUNCH'
+    goldUpgrades: '2500,3200,4000,5000,6200,7800,9600,12000,15000,18500'
+    rubyUpgrades: '250,320,400,500,620,780,960,1200,1500,1850'
+    effectValue: 010000000100000002000000030000000400000005000000060000000700000008000000090000000A000000
+    addType: 7
+    specialDetail: 
+  - name: 'Return damage'
+    code: 'RETURN-DAMAGE'
+    icon: {fileID: 21300000, guid: b400e5c1db2b46a59e01f58c85c57d32, type: 3}
+    des: 'Return any damage from enemies hit to you'
+    goldUp: 1200
+    rubyUp: 12
+    detailSkill: 'Return #VALUE damage from enemies'
+    levelReq: 7
+    skillReq: 'ADD-DEF'
+    inGroupSkills: []
+    nextSkill:
+    - 'FAST-PUNCH'
+    goldUpgrades: '2500,3200,4000,5000,6200,7800,9600,12000,15000,18500'
+    rubyUpgrades: '250,320,400,500,620,780,960,1200,1500,1850'
+    effectValue: 0500000005000000060000000700000008000000090000000A0000000B0000000C0000000D0000000E000000
+    addType: 7
+    specialDetail: 
+  - name: 'How to rich'
+    code: 'ADD-GOLD'
+    icon: {fileID: 21300000, guid: eb71c183f0694894b9f6ac7f469354d6, type: 3}
+    des: 'Collect more gold to be rich'
+    goldUp: 1200
+    rubyUp: 12
+    detailSkill: 'Increa #VALUE gold drop'
+    levelReq: 14
+    skillReq: 'FAST-PUNCH'
+    inGroupSkills:
+    - 'ADD-EXP'
+    - 'ADD-MAT'
+    nextSkill:
+    - 'FAST-SHOOT'
+    goldUpgrades: '29000,32500,37500,43000,50000,57000,65500,75500,87000,100000'
+    rubyUpgrades: '2900,3250,3750,4300,5000,5700,6550,7550,8700,10000'
+    effectValue: 0A0000000A0000000B0000000C0000000D0000000E0000000F0000001000000011000000120000000A000000
+    addType: 4
+    specialDetail: 
+  - name: 'Fast grown up'
+    code: 'ADD-EXP'
+    icon: {fileID: 21300000, guid: 9e22865e139449ba91721765160078b7, type: 3}
+    des: 'Receive more exp to ream new level'
+    goldUp: 1200
+    rubyUp: 12
+    detailSkill: 'Increa #VALUE EXP receive'
+    levelReq: 14
+    skillReq: 'FAST-PUNCH'
+    inGroupSkills:
+    - 'ADD-GOLD'
+    - 'ADD-MAT'
+    nextSkill:
+    - 'KAMEHA'
+    goldUpgrades: '29000,32500,37500,43000,50000,57000,65500,75500,87000,100000'
+    rubyUpgrades: '2900,3250,3750,4300,5000,5700,6550,7550,8700,10000'
+    effectValue: 0F0000000F000000100000001100000012000000130000001400000015000000160000001700000018000000
+    addType: 5
+    specialDetail: 
+  - name: 'King of weapon'
+    code: 'ADD-MAT'
+    icon: {fileID: 21300000, guid: 9df11d654d9d4dad9e32ecd68ad4dcff, type: 3}
+    des: 'Receive more material to craft more item'
+    goldUp: 1200
+    rubyUp: 12
+    detailSkill: 'Increa #VALUE material drop'
+    levelReq: 14
+    skillReq: 'FAST-PUNCH'
+    inGroupSkills:
+    - 'ADD-GOLD'
+    - 'ADD-EXP'
+    nextSkill:
+    - 'KENHKHI'
+    goldUpgrades: '29000,32500,37500,43000,50000,57000,65500,75500,87000,100000'
+    rubyUpgrades: '2900,3250,3750,4300,5000,5700,6550,7550,8700,10000'
+    effectValue: 0F0000000F000000100000001100000012000000130000001400000015000000160000001700000018000000
+    addType: 6
+    specialDetail: 
+  skillActives:
+  - name: 'Normal punch'
+    code: 'NORMAL-ATK'
+    icon: {fileID: 21300068, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    des: 'Punch with power hit. Damage to one enemies'
+    goldUp: 1200
+    rubyUp: 12
+    detailSkill: 'Make #VALUE damage to one enemies'
+    levelReq: 0
+    skillReq: 
+    inGroupSkills: []
+    nextSkill:
+    - 'TORNADO'
+    goldUpgrades: '0,800,1000,1250,1600,2000,2500,3000,3900,5000'
+    rubyUpgrades: '0,80,100,120,160,200,250,300,390,500'
+    damages: 640000006400000078000000820000008C00000096000000A0000000AA000000B4000000BE000000C8000000
+    coolDowns: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - name: 'Tornado'
+    code: 'TORNADO'
+    icon: {fileID: 21300028, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    des: 'Tonador and slash enemies'
+    goldUp: 1200
+    rubyUp: 12
+    detailSkill: 'Make #VALUE damage to one enemies'
+    levelReq: 2
+    skillReq: 'NORMAL-ATK'
+    inGroupSkills: []
+    nextSkill:
+    - 'ADD-ATK'
+    - 'ADD-HP'
+    - 'ADD-DEF'
+    goldUpgrades: '2500,3200,4000,5000,6200,7800,9600,12000,15000,18500'
+    rubyUpgrades: '250,320,400,500,620,780,960,1200,1500,1850'
+    damages: 640000006400000078000000820000008C00000096000000A0000000AA000000B4000000BE000000C8000000
+    coolDowns: 0A0000000A0000000A0000000A0000000A0000000A0000000A0000000A0000000A0000000A0000000A000000
+  - name: 'Summon pet'
+    code: 'SUMMON'
+    icon: {fileID: 21300052, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    des: 'Summon a strong pet to help to attack enemies'
+    goldUp: 1200
+    rubyUp: 12
+    detailSkill: 'Your summon have #VALUE damage'
+    levelReq: 24
+    skillReq: 'KENHKHI|FAST-SHOOT|KAMEHA'
+    inGroupSkills: []
+    nextSkill: []
+    goldUpgrades: '60000,68500,78500,90000,105000,120000,138000,159000,185000,210000'
+    rubyUpgrades: '6000,6850,7850,9000,10500,12000,13800,15900,18500,21000'
+    damages: E8030000E8030000B00400001405000078050000DC05000040060000A4060000080700006C070000D0070000
+    coolDowns: 1E0000001E0000001E0000001E0000001E0000001E0000001E0000001E0000001E0000001E0000001E000000
+  - name: 'Fast punch'
+    code: 'FAST-PUNCH'
+    icon: {fileID: 21300016, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    des: 'Make 20 punch in 1s, make damage to near enemies in front'
+    goldUp: 1200
+    rubyUp: 12
+    detailSkill: 'Make #VALUE damage evenry punch'
+    levelReq: 9
+    skillReq: 'ADD-SPEED|RESTORE-HP|RETURN-DAMAGE'
+    inGroupSkills: []
+    nextSkill:
+    - 'ADD-GOLD'
+    - 'ADD-EXP'
+    - 'ADD-MAT'
+    goldUpgrades: '9800,12000,14000,16800,20500,24500,30000,35000,43000,50000'
+    rubyUpgrades: '980,1200,1400,1680,2050,2450,3000,3500,4300,5000'
+    damages: 640000006400000078000000820000008C00000096000000A0000000AA000000B4000000BE000000C8000000
+    coolDowns: 0F0000000F0000000F0000000F0000000F0000000F0000000F0000000F0000000F0000000F0000000F000000
+  - name: 'Fast shoot'
+    code: 'FAST-SHOOT'
+    icon: {fileID: 21300104, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    des: 'Make 20 shoot in 3s, make damage to all enemies in front'
+    goldUp: 1200
+    rubyUp: 12
+    detailSkill: 'Make #VALUE damage evenry shoot'
+    levelReq: 19
+    skillReq: 'ADD-GOLD'
+    inGroupSkills: []
+    nextSkill:
+    - 'SUMMON'
+    goldUpgrades: '29000,32500,37500,43000,50000,57000,65500,75500,87000,100000'
+    rubyUpgrades: '2900,3250,3750,4300,5000,5700,6550,7550,8700,10000'
+    damages: 200300002003000084030000E80300004C040000B00400001405000078050000DC05000040060000A4060000
+    coolDowns: 1400000014000000140000001400000014000000140000001400000014000000140000001400000014000000
+  - name: 'Lighting power'
+    code: 'KAMEHA'
+    icon: {fileID: 21300086, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    des: 'Make a super power energy line. Destroy all enemies'
+    goldUp: 1200
+    rubyUp: 12
+    detailSkill: 'Make #VALUE damage to all enemies'
+    levelReq: 19
+    skillReq: 'ADD-EXP'
+    inGroupSkills: []
+    nextSkill:
+    - 'SUMMON'
+    goldUpgrades: '29000,32500,37500,43000,50000,57000,65500,75500,87000,100000'
+    rubyUpgrades: '2900,3250,3750,4300,5000,5700,6550,7550,8700,10000'
+    damages: 200300002003000084030000E80300004C040000B00400001405000078050000DC05000040060000A4060000
+    coolDowns: 1400000014000000140000001400000014000000140000001400000014000000140000001400000014000000
+  - name: 'Ball Blast Ring'
+    code: 'KENHKHI'
+    icon: {fileID: 21300090, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    des: 'Make a super power energy line. Destroy all enemies'
+    goldUp: 1200
+    rubyUp: 12
+    detailSkill: 'Make #VALUE damage to all enemies'
+    levelReq: 19
+    skillReq: 'ADD-MAT'
+    inGroupSkills: []
+    nextSkill:
+    - 'SUMMON'
+    goldUpgrades: '29000,32500,37500,43000,50000,57000,65500,75500,87000,100000'
+    rubyUpgrades: '2900,3250,3750,4300,5000,5700,6550,7550,8700,10000'
+    damages: 200300002003000084030000E80300004C040000B00400001405000078050000DC05000040060000A4060000
+    coolDowns: 1400000014000000140000001400000014000000140000001400000014000000140000001400000014000000

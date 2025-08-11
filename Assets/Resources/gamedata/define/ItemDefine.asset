@@ -1,0 +1,1283 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56de75cfb67400b41787d455548623d6, type: 3}
+  m_Name: 'ItemDefine'
+  m_EditorClassIdentifier: 
+  mainItem:
+  - code: 'ARMOR-SOKU-WHITE'
+    name: 'Armor'
+    color: 0
+    icon: {fileID: 21300054, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The basic armor. Increase a bit of your health point.'
+    sellValue: 500
+    itemType: 0
+    optionItem:
+    - value: 5
+      type: 1
+      increTarget: 2
+      increaPerlevel: 1
+  - code: 'ARMOR-SOKU-GREEN'
+    name: 'Armor'
+    color: 1
+    icon: {fileID: 21300106, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'Ther armor stronger than basic armor. Increase your health point.'
+    sellValue: 700
+    itemType: 0
+    optionItem:
+    - value: 10
+      type: 1
+      increTarget: 2
+      increaPerlevel: 2
+  - code: 'ARMOR-SOKU-BLUE'
+    name: 'Armor'
+    color: 2
+    icon: {fileID: 21300034, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The rare armor.  Increase a lot of yout health point. '
+    sellValue: 900
+    itemType: 0
+    optionItem:
+    - value: 15
+      type: 1
+      increTarget: 2
+      increaPerlevel: 3
+  - code: 'ARMOR-SOKU-PINK'
+    name: 'Armor'
+    color: 3
+    icon: {fileID: 21300110, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The mythical armor. Increase your health point and defence'
+    sellValue: 1100
+    itemType: 0
+    optionItem:
+    - value: 20
+      type: 1
+      increTarget: 2
+      increaPerlevel: 4
+    - value: 5
+      type: 1
+      increTarget: 0
+      increaPerlevel: 1
+  - code: 'ARMOR-SOKU-YELLOW'
+    name: 'Armor'
+    color: 4
+    icon: {fileID: 21300020, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The imortal armor. Increase a ton of health point and defence.'
+    sellValue: 1300
+    itemType: 0
+    optionItem:
+    - value: 25
+      type: 1
+      increTarget: 2
+      increaPerlevel: 5
+    - value: 10
+      type: 1
+      increTarget: 0
+      increaPerlevel: 2
+    - value: 100
+      type: 0
+      increTarget: 2
+      increaPerlevel: 100
+  - code: 'ARMOR-SOKU-RED'
+    name: 'Armor'
+    color: 5
+    icon: {fileID: 21300082, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The legendary and strongest armor. Increase a ton of healt point and defence.'
+    sellValue: 1500
+    itemType: 0
+    optionItem:
+    - value: 30
+      type: 1
+      increTarget: 2
+      increaPerlevel: 6
+    - value: 15
+      type: 1
+      increTarget: 0
+      increaPerlevel: 3
+    - value: 150
+      type: 0
+      increTarget: 2
+      increaPerlevel: 150
+  - code: 'SHOE-SOKU-WHITE'
+    name: 'Shoe'
+    color: 0
+    icon: {fileID: 21300108, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The basic shoe. Increase a bit of your defence a bit.'
+    sellValue: 500
+    itemType: 5
+    optionItem:
+    - value: 5
+      type: 1
+      increTarget: 0
+      increaPerlevel: 1
+  - code: 'SHOE-SOKU-GREEN'
+    name: 'Shoe'
+    color: 1
+    icon: {fileID: 21300036, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'Ther armor stronger than basic shoe. Increase your defence.'
+    sellValue: 700
+    itemType: 5
+    optionItem:
+    - value: 10
+      type: 1
+      increTarget: 0
+      increaPerlevel: 2
+  - code: 'SHOE-SOKU-BLUE'
+    name: 'Shoe'
+    color: 2
+    icon: {fileID: 21300032, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The rare shoe.  Increase a lot of yout defence. '
+    sellValue: 900
+    itemType: 5
+    optionItem:
+    - value: 15
+      type: 1
+      increTarget: 0
+      increaPerlevel: 3
+  - code: 'SHOE-SOKU-PINK'
+    name: 'Shoe'
+    color: 3
+    icon: {fileID: 21300050, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The mythical shoe. Increase your defence and healt point.'
+    sellValue: 1100
+    itemType: 5
+    optionItem:
+    - value: 20
+      type: 1
+      increTarget: 0
+      increaPerlevel: 4
+    - value: 5
+      type: 1
+      increTarget: 2
+      increaPerlevel: 1
+  - code: 'SHOE-SOKU-YELLOW'
+    name: 'Shoe'
+    color: 4
+    icon: {fileID: 21300042, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The imortal shoe. Increase a ton of your defence and heal point. '
+    sellValue: 1300
+    itemType: 5
+    optionItem:
+    - value: 25
+      type: 1
+      increTarget: 0
+      increaPerlevel: 5
+    - value: 10
+      type: 1
+      increTarget: 2
+      increaPerlevel: 2
+    - value: 50
+      type: 0
+      increTarget: 0
+      increaPerlevel: 20
+  - code: 'SHOE-SOKU-RED'
+    name: 'Shoe'
+    color: 5
+    icon: {fileID: 21300058, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The legendary and strongest shoe. Increase a ton of your defence and healt point.'
+    sellValue: 1500
+    itemType: 5
+    optionItem:
+    - value: 30
+      type: 1
+      increTarget: 0
+      increaPerlevel: 6
+    - value: 15
+      type: 1
+      increTarget: 2
+      increaPerlevel: 3
+    - value: 70
+      type: 0
+      increTarget: 0
+      increaPerlevel: 25
+  - code: 'RING-SOKU-WHITE'
+    name: 'Ring'
+    color: 0
+    icon: {fileID: 21300078, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The basic ring. Increase a bit of your attack damage.'
+    sellValue: 500
+    itemType: 1
+    optionItem:
+    - value: 5
+      type: 1
+      increTarget: 1
+      increaPerlevel: 1
+  - code: 'RING-SOKU-GREEN'
+    name: 'Ring'
+    color: 1
+    icon: {fileID: 21300084, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The basic ring. Increase your attack damage.'
+    sellValue: 700
+    itemType: 1
+    optionItem:
+    - value: 10
+      type: 1
+      increTarget: 1
+      increaPerlevel: 2
+  - code: 'RING-SOKU-BLUE'
+    name: 'Ring'
+    color: 2
+    icon: {fileID: 21300094, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The rare ring.  Increase a lot of yout attack damage. '
+    sellValue: 900
+    itemType: 1
+    optionItem:
+    - value: 15
+      type: 1
+      increTarget: 1
+      increaPerlevel: 3
+  - code: 'RING-SOKU-PINK'
+    name: 'Ring'
+    color: 3
+    icon: {fileID: 21300030, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The mythical ring. Increase your attack damage.'
+    sellValue: 1100
+    itemType: 1
+    optionItem:
+    - value: 20
+      type: 1
+      increTarget: 1
+      increaPerlevel: 4
+    - value: 100
+      type: 0
+      increTarget: 1
+      increaPerlevel: 20
+  - code: 'RING-SOKU-YELLOW'
+    name: 'Ring'
+    color: 4
+    icon: {fileID: 21300056, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The imortal ring. Increase a ton of attack damage and health point.'
+    sellValue: 1300
+    itemType: 1
+    optionItem:
+    - value: 25
+      type: 1
+      increTarget: 1
+      increaPerlevel: 5
+    - value: 120
+      type: 0
+      increTarget: 1
+      increaPerlevel: 25
+    - value: 5
+      type: 1
+      increTarget: 2
+      increaPerlevel: 1
+  - code: 'RING-SOKU-RED'
+    name: 'Ring'
+    color: 5
+    icon: {fileID: 21300018, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The legendary and strongest ring. Increase a ton of your attack damage and health point.'
+    sellValue: 1500
+    itemType: 1
+    optionItem:
+    - value: 30
+      type: 1
+      increTarget: 1
+      increaPerlevel: 6
+    - value: 150
+      type: 0
+      increTarget: 1
+      increaPerlevel: 30
+    - value: 10
+      type: 1
+      increTarget: 2
+      increaPerlevel: 2
+  - code: 'AMULET-SOKU-WHITE'
+    name: 'Amulet'
+    color: 0
+    icon: {fileID: 21300048, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The basic amulet. Increase a bit of your health point.'
+    sellValue: 500
+    itemType: 3
+    optionItem:
+    - value: 100
+      type: 0
+      increTarget: 2
+      increaPerlevel: 100
+  - code: 'AMULET-SOKU-GREEN'
+    name: 'Amulet'
+    color: 1
+    icon: {fileID: 21300022, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The basic amulet. Increase your health point.'
+    sellValue: 700
+    itemType: 3
+    optionItem:
+    - value: 150
+      type: 0
+      increTarget: 2
+      increaPerlevel: 150
+  - code: 'AMULET-SOKU-BLUE'
+    name: 'Amulet'
+    color: 2
+    icon: {fileID: 21300088, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The rare amulet. Increase a lot of your health point.'
+    sellValue: 900
+    itemType: 3
+    optionItem:
+    - value: 170
+      type: 0
+      increTarget: 2
+      increaPerlevel: 170
+  - code: 'AMULET-SOKU-PINK'
+    name: 'Amulet'
+    color: 3
+    icon: {fileID: 21300098, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The mythical amulet. Increase your health point and defence.'
+    sellValue: 1100
+    itemType: 3
+    optionItem:
+    - value: 200
+      type: 0
+      increTarget: 2
+      increaPerlevel: 210
+    - value: 5
+      type: 1
+      increTarget: 0
+      increaPerlevel: 1
+  - code: 'AMULET-SOKU-YELLOW'
+    name: 'Amulet'
+    color: 4
+    icon: {fileID: 21300072, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The imortal amulet. Increase a ton of your health point and defence.'
+    sellValue: 1300
+    itemType: 3
+    optionItem:
+    - value: 250
+      type: 0
+      increTarget: 2
+      increaPerlevel: 230
+    - value: 10
+      type: 1
+      increTarget: 0
+      increaPerlevel: 2
+    - value: 5
+      type: 1
+      increTarget: 2
+      increaPerlevel: 1
+  - code: 'AMULET-SOKU-RED'
+    name: 'Amulet'
+    color: 5
+    icon: {fileID: 21300080, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The legendary and strongest amulet. Increase a ton of your health point and defence'
+    sellValue: 1500
+    itemType: 3
+    optionItem:
+    - value: 300
+      type: 0
+      increTarget: 2
+      increaPerlevel: 300
+    - value: 15
+      type: 1
+      increTarget: 0
+      increaPerlevel: 3
+    - value: 10
+      type: 1
+      increTarget: 2
+      increaPerlevel: 2
+  - code: 'PANTS-SOKU-WHITE'
+    name: 'Pants'
+    color: 0
+    icon: {fileID: 21300100, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The basic armor. Increase a bit of your defence.'
+    sellValue: 500
+    itemType: 4
+    optionItem:
+    - value: 50
+      type: 0
+      increTarget: 0
+      increaPerlevel: 20
+  - code: 'PANTS-SOKU-GREEN'
+    name: 'Pants'
+    color: 1
+    icon: {fileID: 21300062, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The stronger than basic pants. Increase your defence.'
+    sellValue: 700
+    itemType: 4
+    optionItem:
+    - value: 55
+      type: 0
+      increTarget: 0
+      increaPerlevel: 25
+  - code: 'PANTS-SOKU-BLUE'
+    name: 'Pants'
+    color: 2
+    icon: {fileID: 21300038, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The rare pants. Increase a lot of your defence.'
+    sellValue: 900
+    itemType: 4
+    optionItem:
+    - value: 60
+      type: 0
+      increTarget: 0
+      increaPerlevel: 30
+  - code: 'PANTS-SOKU-PINK'
+    name: 'Pants'
+    color: 3
+    icon: {fileID: 21300044, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The mythical pants. Increase your defence and health point.'
+    sellValue: 1100
+    itemType: 4
+    optionItem:
+    - value: 65
+      type: 0
+      increTarget: 0
+      increaPerlevel: 35
+    - value: 5
+      type: 1
+      increTarget: 2
+      increaPerlevel: 1
+  - code: 'PANTS-SOKU-YELLOW'
+    name: 'Pants'
+    color: 4
+    icon: {fileID: 21300076, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The imortal pants. Increase a ton of your defence and health point.'
+    sellValue: 1300
+    itemType: 4
+    optionItem:
+    - value: 70
+      type: 0
+      increTarget: 0
+      increaPerlevel: 40
+    - value: 10
+      type: 1
+      increTarget: 2
+      increaPerlevel: 2
+    - value: 5
+      type: 1
+      increTarget: 0
+      increaPerlevel: 1
+  - code: 'PANTS-SOKU-RED'
+    name: 'Pants'
+    color: 5
+    icon: {fileID: 21300060, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The legendary and strongest of pants. Increase a ton of your defence and health point.'
+    sellValue: 1500
+    itemType: 4
+    optionItem:
+    - value: 100
+      type: 0
+      increTarget: 0
+      increaPerlevel: 50
+    - value: 15
+      type: 1
+      increTarget: 2
+      increaPerlevel: 3
+    - value: 10
+      type: 1
+      increTarget: 0
+      increaPerlevel: 2
+  - code: 'GLOVER-SOKU-WHITE'
+    name: 'Glover'
+    color: 0
+    icon: {fileID: 21300014, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The basic amulet. Increase a bit of your attack damage.'
+    sellValue: 500
+    itemType: 2
+    optionItem:
+    - value: 100
+      type: 0
+      increTarget: 1
+      increaPerlevel: 20
+  - code: 'GLOVER-SOKU-GREEN'
+    name: 'Glover'
+    color: 1
+    icon: {fileID: 21300040, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The stronger than basic ring. Increase your attack damage.'
+    sellValue: 700
+    itemType: 2
+    optionItem:
+    - value: 120
+      type: 0
+      increTarget: 1
+      increaPerlevel: 40
+  - code: 'GLOVER-SOKU-BLUE'
+    name: 'Glover'
+    color: 2
+    icon: {fileID: 21300026, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The rare glover. Increase a lot of yout attack damage.'
+    sellValue: 900
+    itemType: 2
+    optionItem:
+    - value: 140
+      type: 0
+      increTarget: 1
+      increaPerlevel: 60
+  - code: 'GLOVER-SOKU-PINK'
+    name: 'Glover'
+    color: 3
+    icon: {fileID: 21300064, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The mythical ring. Increase your attack damage.'
+    sellValue: 1100
+    itemType: 2
+    optionItem:
+    - value: 160
+      type: 0
+      increTarget: 1
+      increaPerlevel: 70
+    - value: 5
+      type: 1
+      increTarget: 1
+      increaPerlevel: 1
+  - code: 'GLOVER-SOKU-YELLOW'
+    name: 'Glover'
+    color: 4
+    icon: {fileID: 21300070, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The mythical glover. Increase a ton of your attack damage.'
+    sellValue: 1300
+    itemType: 2
+    optionItem:
+    - value: 200
+      type: 0
+      increTarget: 1
+      increaPerlevel: 80
+    - value: 10
+      type: 1
+      increTarget: 1
+      increaPerlevel: 2
+    - value: 5
+      type: 1
+      increTarget: 0
+      increaPerlevel: 1
+  - code: 'GLOVER-SOKU-RED'
+    name: 'Glover'
+    color: 5
+    icon: {fileID: 21300092, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The legendary and strongest glover. Increase a ton of your attack damage.'
+    sellValue: 1500
+    itemType: 2
+    optionItem:
+    - value: 250
+      type: 0
+      increTarget: 1
+      increaPerlevel: 100
+    - value: 15
+      type: 1
+      increTarget: 1
+      increaPerlevel: 3
+    - value: 10
+      type: 1
+      increTarget: 0
+      increaPerlevel: 2
+  resourceItem:
+  - code: 'VAI-THO'
+    name: 'Fabric'
+    color: 0
+    icon: {fileID: 21300000, guid: b3fe662c6bcb4924994f290cc7de61bc, type: 3}
+    description: 'Main ingredients make up the costumes'
+    sellValue: 10
+    minDrop: 1
+    maxDrop: 5
+  - code: 'THAO-MOC'
+    name: 'Herb'
+    color: 0
+    icon: {fileID: 21300000, guid: f2c7badb2a294b99bce824f1b08b30ce, type: 3}
+    description: 'Used heavily in healing and weaponry'
+    sellValue: 10
+    minDrop: 1
+    maxDrop: 5
+  - code: 'DA-THU'
+    name: 'Leather'
+    color: 1
+    icon: {fileID: 21300000, guid: 2919e9350dee40f6930bf94fde83490d, type: 3}
+    description: 'Used and found in many places'
+    sellValue: 20
+    minDrop: 1
+    maxDrop: 5
+  - code: 'LONG-VU'
+    name: 'Feathers'
+    color: 1
+    icon: {fileID: 21300000, guid: 59cebfaca24c4080928da3b347afd8a5, type: 3}
+    description: 'Feathers of large creatures,   Hidden with the mysterious power'
+    sellValue: 20
+    minDrop: 1
+    maxDrop: 5
+  - code: 'GO-TRON'
+    name: 'Wood'
+    color: 2
+    icon: {fileID: 21300000, guid: 027e0d29744345a6bd29bd72eb30ddce, type: 3}
+    description: 'Material is made of many items, relatively easy to find'
+    sellValue: 30
+    minDrop: 1
+    maxDrop: 5
+  - code: 'DA-VU-TRU'
+    name: 'Cosmic rock'
+    color: 2
+    icon: {fileID: 21300000, guid: 800da96f55564ceeb5072e660b369455, type: 3}
+    description: 'Extremely rare material of the 7th universe   It will bring tremendous strength'
+    sellValue: 30
+    minDrop: 1
+    maxDrop: 5
+  - code: 'CAT'
+    name: 'Sand'
+    color: 3
+    icon: {fileID: 21300000, guid: d3fe4eacf06b41b4bca2c62fc3bcaa97, type: 3}
+    description: 'Raw materials are indispensable on earth'
+    sellValue: 40
+    minDrop: 1
+    maxDrop: 5
+  - code: 'DA-TINH-ANH'
+    name: 'Crystal'
+    color: 3
+    icon: {fileID: 21300000, guid: 5af10ce7380e40769648b00af334aff7, type: 3}
+    description: 'The material is extremely rare, it carries within itself The power overwhelms the enemy'
+    sellValue: 40
+    minDrop: 1
+    maxDrop: 5
+  - code: 'MAI-RUA'
+    name: 'Tortoiseshell'
+    color: 4
+    icon: {fileID: 21300000, guid: a4d991538e91452791bd33f867c71902, type: 3}
+    description: 'Incredibly, make up the superlative items'
+    sellValue: 50
+    minDrop: 1
+    maxDrop: 5
+  - code: 'DRAGON-ENERGY'
+    name: 'Dragon energy'
+    color: 4
+    icon: {fileID: 21300000, guid: 1c2a1b9a59b6454ebfbfeff864ef60bd, type: 3}
+    description: 'The main source of energy from the rare   Dragon appeared.   If combined, it will give us the ultimate item'
+    sellValue: 50
+    minDrop: 1
+    maxDrop: 5
+  - code: 'LINHHON-NAMEX'
+    name: 'Soul Namex'
+    color: 5
+    icon: {fileID: 21300000, guid: 7903ff545b264061bd40a0b600af456e, type: 3}
+    description: 'Namex has been destroyed, there are many souls   floating in the universe, they will give you more many new skills'
+    sellValue: 60
+    minDrop: 1
+    maxDrop: 5
+  - code: 'RANGNANH-KHIDOT'
+    name: 'Gorillas canine'
+    color: 5
+    icon: {fileID: 21300000, guid: 02428df058024e22804057a27f8518de, type: 3}
+    description: 'A strange power on the full moon night,   It will awaken the potential of the heroes,   It is extremely hard to find'
+    sellValue: 60
+    minDrop: 1
+    maxDrop: 5
+  scrollItems:
+  - code: 'PANTS-SOKU-WHITE-SCROLL'
+    name: 'Pants scroll'
+    color: 0
+    icon: {fileID: 21300024, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of common pants. Use it and collect all requrie material to craft.'
+    sellValue: 100
+    costRes:
+    - code: 'DA-THU'
+      cost: 100
+    - code: 'VAI-THO'
+      cost: 100
+    productIcon: {fileID: 21300100, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'PANTS-SOKU-WHITE'
+    goldCost: 1200
+    rubyCost: 12
+  - code: 'PANTS-SOKU-GREEN-SCROLL'
+    name: 'Pants scroll'
+    color: 1
+    icon: {fileID: 21300096, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of uncommon pants. Use it and collect all requrie material to craft.'
+    sellValue: 200
+    costRes:
+    - code: 'THAO-MOC'
+      cost: 150
+    - code: 'VAI-THO'
+      cost: 150
+    productIcon: {fileID: 21300062, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'PANTS-SOKU-GREEN'
+    goldCost: 2400
+    rubyCost: 24
+  - code: 'PANTS-SOKU-BLUE-SCROLL'
+    name: 'Pants scroll'
+    color: 2
+    icon: {fileID: 21300066, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of rare pants. Use it and collect all requrie material to craft.'
+    sellValue: 300
+    costRes:
+    - code: 'THAO-MOC'
+      cost: 100
+    - code: 'VAI-THO'
+      cost: 50
+    - code: 'LONG-VU'
+      cost: 150
+    productIcon: {fileID: 21300038, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'PANTS-SOKU-BLUE'
+    goldCost: 3600
+    rubyCost: 36
+  - code: 'PANTS-SOKU-PINK-SCROLL'
+    name: 'Pants scroll'
+    color: 3
+    icon: {fileID: 21300046, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of mythical pants. Use it and collect all requrie material to craft.'
+    sellValue: 400
+    costRes:
+    - code: 'GO-TRON'
+      cost: 100
+    - code: 'DA-VU-TRU'
+      cost: 198
+    productIcon: {fileID: 21300044, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'PANTS-SOKU-PINK'
+    goldCost: 4800
+    rubyCost: 48
+  - code: 'PANTS-SOKU-YELLOW-SCROLL'
+    name: 'Pants scroll'
+    color: 4
+    icon: {fileID: 21300074, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of imortal pants. Use it and collect all requrie material to craft.'
+    sellValue: 500
+    costRes:
+    - code: 'DA-VU-TRU'
+      cost: 100
+    - code: 'DA-TINH-ANH'
+      cost: 198
+    productIcon: {fileID: 21300076, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'PANTS-SOKU-YELLOW'
+    goldCost: 6000
+    rubyCost: 60
+  - code: 'PANTS-SOKU-RED-SCROLL'
+    name: 'Pants scroll'
+    color: 5
+    icon: {fileID: 21300102, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of legendary pants. Use it and collect all requrie material to craft.'
+    sellValue: 600
+    costRes:
+    - code: 'GO-TRON'
+      cost: 100
+    - code: 'RANGNANH-KHIDOT'
+      cost: 150
+    - code: 'DA-TINH-ANH'
+      cost: 150
+    productIcon: {fileID: 21300060, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'PANTS-SOKU-RED'
+    goldCost: 7200
+    rubyCost: 72
+  - code: 'ARMOR-SOKU-WHITE-SCROLL'
+    name: 'Armor scroll'
+    color: 0
+    icon: {fileID: 21300024, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of common armor. Use it and collect all requrie material to craft.'
+    sellValue: 100
+    costRes:
+    - code: 'VAI-THO'
+      cost: 100
+    - code: 'DA-THU'
+      cost: 100
+    productIcon: {fileID: 21300054, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'ARMOR-SOKU-WHITE'
+    goldCost: 1200
+    rubyCost: 12
+  - code: 'ARMOR-SOKU-GREEN-SCROLL'
+    name: 'Armor scroll'
+    color: 1
+    icon: {fileID: 21300096, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of uncommon armor. Use it and collect all requrie material to craft.'
+    sellValue: 200
+    costRes:
+    - code: 'VAI-THO'
+      cost: 100
+    - code: 'DA-THU'
+      cost: 100
+    - code: 'THAO-MOC'
+      cost: 100
+    productIcon: {fileID: 21300106, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'ARMOR-SOKU-GREEN'
+    goldCost: 2400
+    rubyCost: 24
+  - code: 'ARMOR-SOKU-BLUE-SCROLL'
+    name: 'Armor scroll'
+    color: 2
+    icon: {fileID: 21300066, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of rare armor. Use it and collect all requrie material to craft.'
+    sellValue: 300
+    costRes:
+    - code: 'VAI-THO'
+      cost: 100
+    - code: 'DA-THU'
+      cost: 100
+    - code: 'LONG-VU'
+      cost: 150
+    productIcon: {fileID: 21300034, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'ARMOR-SOKU-BLUE'
+    goldCost: 3600
+    rubyCost: 30
+  - code: 'ARMOR-SOKU-PINK-SCROLL'
+    name: 'Armor scroll'
+    color: 3
+    icon: {fileID: 21300046, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of mythical armor. Use it and collect all requrie material to craft.'
+    sellValue: 400
+    costRes:
+    - code: 'LONG-VU'
+      cost: 150
+    - code: 'DA-VU-TRU'
+      cost: 198
+    productIcon: {fileID: 21300110, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'ARMOR-SOKU-PINK'
+    goldCost: 4800
+    rubyCost: 48
+  - code: 'ARMOR-SOKU-YELLOW-SCROLL'
+    name: 'Armor scroll'
+    color: 4
+    icon: {fileID: 21300074, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of imortal armor. Use it and collect all requrie material to craft.'
+    sellValue: 500
+    costRes:
+    - code: 'LONG-VU'
+      cost: 100
+    - code: 'GO-TRON'
+      cost: 50
+    - code: 'DA-TINH-ANH'
+      cost: 150
+    productIcon: {fileID: 21300020, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'ARMOR-SOKU-YELLOW'
+    goldCost: 6000
+    rubyCost: 60
+  - code: 'ARMOR-SOKU-RED-SCROLL'
+    name: 'Armor scroll'
+    color: 5
+    icon: {fileID: 21300102, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of legendary armor. Use it and collect all requrie material to craft.'
+    sellValue: 600
+    costRes:
+    - code: 'LONG-VU'
+      cost: 100
+    - code: 'MAI-RUA'
+      cost: 150
+    - code: 'RANGNANH-KHIDOT'
+      cost: 150
+    productIcon: {fileID: 21300082, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'ARMOR-SOKU-RED'
+    goldCost: 7200
+    rubyCost: 72
+  - code: 'SHOE-SOKU-WHITE-SCROLL'
+    name: 'Shoe scroll'
+    color: 0
+    icon: {fileID: 21300024, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of common shoe. Use it and collect all requrie material to craft.'
+    sellValue: 100
+    costRes:
+    - code: 'DA-THU'
+      cost: 100
+    - code: 'THAO-MOC'
+      cost: 100
+    productIcon: {fileID: 21300108, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'SHOE-SOKU-WHITE'
+    goldCost: 1200
+    rubyCost: 12
+  - code: 'SHOE-SOKU-GREEN-SCROLL'
+    name: 'Shoe scroll'
+    color: 1
+    icon: {fileID: 21300096, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of uncommon shoe. Use it and collect all requrie material to craft.'
+    sellValue: 200
+    costRes:
+    - code: 'DA-THU'
+      cost: 150
+    - code: 'THAO-MOC'
+      cost: 150
+    productIcon: {fileID: 21300036, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'SHOE-SOKU-GREEN'
+    goldCost: 2400
+    rubyCost: 24
+  - code: 'SHOE-SOKU-BLUE-SCROLL'
+    name: 'Shoe scroll'
+    color: 2
+    icon: {fileID: 21300066, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of rare shoe. Use it and collect all requrie material to craft.'
+    sellValue: 300
+    costRes:
+    - code: 'DA-THU'
+      cost: 100
+    - code: 'THAO-MOC'
+      cost: 100
+    - code: 'LONG-VU'
+      cost: 150
+    productIcon: {fileID: 21300032, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'SHOE-SOKU-BLUE'
+    goldCost: 3600
+    rubyCost: 36
+  - code: 'SHOE-SOKU-PINK-SCROLL'
+    name: 'Shoe scroll'
+    color: 3
+    icon: {fileID: 21300046, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of mythical shoe. Use it and collect all requrie material to craft.'
+    sellValue: 400
+    costRes:
+    - code: 'DA-VU-TRU'
+      cost: 150
+    - code: 'CAT'
+      cost: 189
+    productIcon: {fileID: 21300050, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'SHOE-SOKU-PINK'
+    goldCost: 4800
+    rubyCost: 48
+  - code: 'SHOE-SOKU-YELLOW-SCROLL'
+    name: 'Shoe scroll'
+    color: 4
+    icon: {fileID: 21300074, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of imortal shoe. Use it and collect all requrie material to craft.'
+    sellValue: 500
+    costRes:
+    - code: 'GO-TRON'
+      cost: 50
+    - code: 'DA-TINH-ANH'
+      cost: 150
+    - code: 'MAI-RUA'
+      cost: 150
+    productIcon: {fileID: 21300042, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'SHOE-SOKU-YELLOW'
+    goldCost: 6000
+    rubyCost: 60
+  - code: 'SHOE-SOKU-RED-SCROLL'
+    name: 'Shoe scroll'
+    color: 5
+    icon: {fileID: 21300102, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of legendary shoe. Use it and collect all requrie material to craft.'
+    sellValue: 600
+    costRes:
+    - code: 'LONG-VU'
+      cost: 100
+    - code: 'CAT'
+      cost: 150
+    - code: 'RANGNANH-KHIDOT'
+      cost: 150
+    productIcon: {fileID: 21300058, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'SHOE-SOKU-RED'
+    goldCost: 7200
+    rubyCost: 72
+  - code: 'GLOVER-SOKU-WHITE-SCROLL'
+    name: 'Glover scroll'
+    color: 0
+    icon: {fileID: 21300024, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of common glover. Use it and collect all requrie material to craft.'
+    sellValue: 100
+    costRes:
+    - code: 'VAI-THO'
+      cost: 100
+    - code: 'THAO-MOC'
+      cost: 100
+    productIcon: {fileID: 21300014, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'GLOVER-SOKU-WHITE'
+    goldCost: 1200
+    rubyCost: 12
+  - code: 'GLOVER-SOKU-GREEN-SCROLL'
+    name: 'Glover scroll'
+    color: 1
+    icon: {fileID: 21300096, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of uncommon glover. Use it and collect all requrie material to craft.'
+    sellValue: 200
+    costRes:
+    - code: 'VAI-THO'
+      cost: 100
+    - code: 'THAO-MOC'
+      cost: 100
+    - code: 'DA-THU'
+      cost: 100
+    productIcon: {fileID: 21300040, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'GLOVER-SOKU-GREEN'
+    goldCost: 2400
+    rubyCost: 24
+  - code: 'GLOVER-SOKU-BLUE-SCROLL'
+    name: 'Glover scroll'
+    color: 2
+    icon: {fileID: 21300066, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of rare glover. Use it and collect all requrie material to craft.'
+    sellValue: 300
+    costRes:
+    - code: 'LONG-VU'
+      cost: 200
+    - code: 'THAO-MOC'
+      cost: 150
+    - code: 'DA-THU'
+      cost: 150
+    productIcon: {fileID: 21300026, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'GLOVER-SOKU-BLUE'
+    goldCost: 3600
+    rubyCost: 36
+  - code: 'GLOVER-SOKU-PINK-SCROLL'
+    name: 'Glover scroll'
+    color: 3
+    icon: {fileID: 21300046, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of mythical glover. Use it and collect all requrie material to craft.'
+    sellValue: 400
+    costRes:
+    - code: 'CAT'
+      cost: 200
+    - code: 'THAO-MOC'
+      cost: 150
+    productIcon: {fileID: 21300064, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'GLOVER-SOKU-PINK'
+    goldCost: 4800
+    rubyCost: 48
+  - code: 'GLOVER-SOKU-YELLOW-SCROLL'
+    name: 'Glover scroll'
+    color: 4
+    icon: {fileID: 21300074, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of imortal glover. Use it and collect all requrie material to craft.'
+    sellValue: 500
+    costRes:
+    - code: 'CAT'
+      cost: 150
+    - code: 'GO-TRON'
+      cost: 100
+    - code: 'MAI-RUA'
+      cost: 150
+    productIcon: {fileID: 21300070, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'GLOVER-SOKU-YELLOW'
+    goldCost: 6000
+    rubyCost: 60
+  - code: 'GLOVER-SOKU-RED-SCROLL'
+    name: 'Glover scroll'
+    color: 5
+    icon: {fileID: 21300102, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of legendary glover. Use it and collect all requrie material to craft.'
+    sellValue: 600
+    costRes:
+    - code: 'LONG-VU'
+      cost: 100
+    - code: 'DA-VU-TRU'
+      cost: 150
+    - code: 'RANGNANH-KHIDOT'
+      cost: 150
+    productIcon: {fileID: 21300092, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'GLOVER-SOKU-RED'
+    goldCost: 7200
+    rubyCost: 72
+  - code: 'RING-SOKU-WHITE-SCROLL'
+    name: 'Ring scroll'
+    color: 0
+    icon: {fileID: 21300024, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of common ring. Use it and collect all requrie material to craft.'
+    sellValue: 100
+    costRes:
+    - code: 'VAI-THO'
+      cost: 100
+    - code: 'DA-THU'
+      cost: 150
+    productIcon: {fileID: 21300078, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'RING-SOKU-WHITE'
+    goldCost: 1200
+    rubyCost: 12
+  - code: 'RING-SOKU-GREEN-SCROLL'
+    name: 'Ring scroll'
+    color: 1
+    icon: {fileID: 21300096, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of uncommon ring. Use it and collect all requrie material to craft.'
+    sellValue: 200
+    costRes:
+    - code: 'THAO-MOC'
+      cost: 100
+    - code: 'LONG-VU'
+      cost: 150
+    - code: 'DA-VU-TRU'
+      cost: 100
+    productIcon: {fileID: 21300084, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'RING-SOKU-GREEN'
+    goldCost: 2400
+    rubyCost: 24
+  - code: 'RING-SOKU-BLUE-SCROLL'
+    name: 'Ring scroll'
+    color: 2
+    icon: {fileID: 21300066, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of rare ring. Use it and collect all requrie material to craft.'
+    sellValue: 300
+    costRes:
+    - code: 'GO-TRON'
+      cost: 50
+    - code: 'MAI-RUA'
+      cost: 100
+    - code: 'DA-VU-TRU'
+      cost: 150
+    productIcon: {fileID: 21300094, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'RING-SOKU-BLUE'
+    goldCost: 3600
+    rubyCost: 36
+  - code: 'RING-SOKU-PINK-SCROLL'
+    name: 'Ring scroll'
+    color: 3
+    icon: {fileID: 21300046, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of mythical ring. Use it and collect all requrie material to craft.'
+    sellValue: 400
+    costRes:
+    - code: 'DRAGON-ENERGY'
+      cost: 150
+    - code: 'DA-TINH-ANH'
+      cost: 150
+    - code: 'DA-VU-TRU'
+      cost: 150
+    productIcon: {fileID: 21300030, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'RING-SOKU-PINK'
+    goldCost: 4800
+    rubyCost: 48
+  - code: 'RING-SOKU-YELLOW-SCROLL'
+    name: 'Ring scroll'
+    color: 4
+    icon: {fileID: 21300074, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of imortal ring. Use it and collect all requrie material to craft.'
+    sellValue: 500
+    costRes:
+    - code: 'LINHHON-NAMEX'
+      cost: 150
+    - code: 'DA-TINH-ANH'
+      cost: 150
+    - code: 'RANGNANH-KHIDOT'
+      cost: 150
+    productIcon: {fileID: 21300056, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'RING-SOKU-YELLOW'
+    goldCost: 6000
+    rubyCost: 60
+  - code: 'RING-SOKU-RED-SCROLL'
+    name: 'Ring scroll'
+    color: 5
+    icon: {fileID: 21300102, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of legendary ring. Use it and collect all requrie material to craft.'
+    sellValue: 600
+    costRes:
+    - code: 'LINHHON-NAMEX'
+      cost: 200
+    - code: 'DRAGON-ENERGY'
+      cost: 150
+    - code: 'RANGNANH-KHIDOT'
+      cost: 150
+    productIcon: {fileID: 21300018, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'RING-SOKU-RED'
+    goldCost: 7200
+    rubyCost: 72
+  - code: 'AMULET-SOKU-WHITE-SCROLL'
+    name: 'Amulet scroll'
+    color: 0
+    icon: {fileID: 21300024, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of common amulet. Use it and collect all requrie material to craft.'
+    sellValue: 100
+    costRes:
+    - code: 'VAI-THO'
+      cost: 120
+    - code: 'LONG-VU'
+      cost: 120
+    productIcon: {fileID: 21300048, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'AMULET-SOKU-WHITE'
+    goldCost: 1200
+    rubyCost: 12
+  - code: 'AMULET-SOKU-GREEN-SCROLL'
+    name: 'Amulet scroll'
+    color: 1
+    icon: {fileID: 21300096, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of uncommon amulet. Use it and collect all requrie material to craft.'
+    sellValue: 200
+    costRes:
+    - code: 'THAO-MOC'
+      cost: 100
+    - code: 'LONG-VU'
+      cost: 150
+    - code: 'DA-VU-TRU'
+      cost: 150
+    productIcon: {fileID: 21300022, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'AMULET-SOKU-GREEN'
+    goldCost: 2400
+    rubyCost: 24
+  - code: 'AMULET-SOKU-BLUE-SCROLL'
+    name: 'Amulet scroll'
+    color: 2
+    icon: {fileID: 21300066, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of rare amulet. Use it and collect all requrie material to craft.'
+    sellValue: 300
+    costRes:
+    - code: 'MAI-RUA'
+      cost: 100
+    - code: 'DA-THU'
+      cost: 150
+    - code: 'DA-VU-TRU'
+      cost: 150
+    productIcon: {fileID: 21300088, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'AMULET-SOKU-BLUE'
+    goldCost: 3600
+    rubyCost: 36
+  - code: 'AMULET-SOKU-PINK-SCROLL'
+    name: 'Amulet scroll'
+    color: 3
+    icon: {fileID: 21300046, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of mythical amulet. Use it and collect all requrie material to craft.'
+    sellValue: 400
+    costRes:
+    - code: 'DA-TINH-ANH'
+      cost: 100
+    - code: 'GO-TRON'
+      cost: 150
+    - code: 'LINHHON-NAMEX'
+      cost: 150
+    productIcon: {fileID: 21300098, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'AMULET-SOKU-PINK'
+    goldCost: 4800
+    rubyCost: 48
+  - code: 'AMULET-SOKU-YELLOW-SCROLL'
+    name: 'Amulet scroll'
+    color: 4
+    icon: {fileID: 21300074, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of imortal amulet. Use it and collect all requrie material to craft.'
+    sellValue: 500
+    costRes:
+    - code: 'DA-TINH-ANH'
+      cost: 100
+    - code: 'LONG-VU'
+      cost: 150
+    - code: 'DRAGON-ENERGY'
+      cost: 150
+    productIcon: {fileID: 21300072, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'AMULET-SOKU-YELLOW'
+    goldCost: 6000
+    rubyCost: 60
+  - code: 'AMULET-SOKU-RED-SCROLL'
+    name: 'Amulet scroll'
+    color: 5
+    icon: {fileID: 21300102, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    description: 'The recipe of legendary amulet. Use it and collect all requrie material to craft.'
+    sellValue: 600
+    costRes:
+    - code: 'LINHHON-NAMEX'
+      cost: 150
+    - code: 'DA-TINH-ANH'
+      cost: 150
+    - code: 'DRAGON-ENERGY'
+      cost: 150
+    productIcon: {fileID: 21300080, guid: a121522e9919460891f255f58a8133b4, type: 3}
+    codeProduct: 'AMULET-SOKU-RED'
+    goldCost: 7200
+    rubyCost: 72
+  attritionItems:
+  - code: 'SILVER-KEY'
+    name: 'Sliver key'
+    color: 0
+    icon: {fileID: 21300000, guid: 5e0b628f5c6448738921f0046db7df5e, type: 3}
+    description: 'The silver key to unlock silver treasure.'
+    sellValue: 500
+    minDrop: 0
+    maxDrop: 0
+  - code: 'GOLDEN-KEY'
+    name: 'Golden key'
+    color: 1
+    icon: {fileID: 21300000, guid: 8d1d3085268e4b90b3ead69404b18097, type: 3}
+    description: 'The goldend key to unlock golden treasure.'
+    sellValue: 1000
+    minDrop: 0
+    maxDrop: 0
+  - code: 'DIAMOND-KEY'
+    name: 'Diamond key'
+    color: 2
+    icon: {fileID: 21300000, guid: 7b5217dd28f648a08ca18ff5f15c9045, type: 3}
+    description: 'The Diamond key to unlock diamond treasure.'
+    sellValue: 1500
+    minDrop: 0
+    maxDrop: 0
+  - code: 'LEGENDARY-KEY'
+    name: 'Legendary key'
+    color: 3
+    icon: {fileID: 21300000, guid: e8370e0e49b544f8bc700c728182dde5, type: 3}
+    description: 'The legendary key to unlock legendary treasure'
+    sellValue: 2000
+    minDrop: 0
+    maxDrop: 0

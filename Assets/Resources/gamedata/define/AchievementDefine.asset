@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c7f3e861119e9966dad749521e1b0fa, type: 3}
+  m_Name: 'AchievementDefine'
+  m_EditorClassIdentifier: 
+  achievements:
+  - code: 'REACH-LEVEL'
+    detail: 'Reach to level #VALUE'
+    icon: {fileID: 21300000, guid: 8224368c728948e48d9f083d2dbdbff2, type: 3}
+    number: 9
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 10
+    numberStep: 10
+    giftValueStep: 10
+  - code: 'UP-ARMOR'
+    detail: 'Upgrade armor #VALUE time'
+    icon: {fileID: 21300000, guid: c5ad8a13a7fd49548786cb374e11a4ba, type: 3}
+    number: 5
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 5
+    numberStep: 10
+    giftValueStep: 10
+  - code: 'UP-SHOE'
+    detail: 'Upgrade shoe #VALUE time'
+    icon: {fileID: 21300000, guid: c5ad8a13a7fd49548786cb374e11a4ba, type: 3}
+    number: 5
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 5
+    numberStep: 10
+    giftValueStep: 10
+  - code: 'UP-GLOVER'
+    detail: 'Upgrade glover #VALUE time'
+    icon: {fileID: 21300000, guid: c5ad8a13a7fd49548786cb374e11a4ba, type: 3}
+    number: 5
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 5
+    numberStep: 10
+    giftValueStep: 10
+  - code: 'UP-PANTS'
+    detail: 'Upgrade pants #VALUE time'
+    icon: {fileID: 21300000, guid: c5ad8a13a7fd49548786cb374e11a4ba, type: 3}
+    number: 5
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 5
+    numberStep: 10
+    giftValueStep: 10
+  - code: 'PASS-LEVEL'
+    detail: 'Pass level #VALUE time'
+    icon: {fileID: 21300000, guid: c25731a90a6d4fac89511a789d86f970, type: 3}
+    number: 10
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 20
+    numberStep: 15
+    giftValueStep: 15
+  - code: 'PURCHASER'
+    detail: 'Purchase #VALUE time'
+    icon: {fileID: 21300000, guid: 5e713f4c885d421ba17c1e8d9765d171, type: 3}
+    number: 5
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 50
+    numberStep: 5
+    giftValueStep: 50
+  - code: 'CRAFT'
+    detail: 'Craft #VALUE time'
+    icon: {fileID: 21300000, guid: ef806e55f7eb4013b8ad1b47e5589097, type: 3}
+    number: 5
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 15
+    numberStep: 10
+    giftValueStep: 15
+  - code: 'KILL-MONSTER'
+    detail: 'Kill #VALUE monster'
+    icon: {fileID: 21300000, guid: c6c7e1aa6b6a4884a3f8759e2bbe9573, type: 3}
+    number: 150
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 100
+    numberStep: 150
+    giftValueStep: 20

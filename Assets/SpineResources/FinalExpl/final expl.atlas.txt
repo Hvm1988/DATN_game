@@ -1,0 +1,69 @@
+
+final expl.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dragon/ban-chan
+  rotate: false
+  xy: 812, 214
+  size: 77, 26
+  orig: 77, 26
+  offset: 0, 0
+  index: -1
+dragon/canh
+  rotate: false
+  xy: 2, 70
+  size: 261, 170
+  orig: 261, 170
+  offset: 0, 0
+  index: -1
+dragon/chan-sau
+  rotate: false
+  xy: 95, 17
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+dragon/chan-truoc
+  rotate: false
+  xy: 2, 2
+  size: 91, 66
+  orig: 91, 66
+  offset: 0, 0
+  index: -1
+dragon/dau
+  rotate: false
+  xy: 512, 127
+  size: 145, 113
+  orig: 145, 113
+  offset: 0, 0
+  index: -1
+dragon/dui-sau
+  rotate: false
+  xy: 659, 152
+  size: 65, 88
+  orig: 65, 88
+  offset: 0, 0
+  index: -1
+dragon/dui-truoc
+  rotate: true
+  xy: 512, 67
+  size: 58, 78
+  orig: 58, 78
+  offset: 0, 0
+  index: -1
+dragon/ham
+  rotate: false
+  xy: 726, 172
+  size: 84, 68
+  orig: 84, 68
+  offset: 0, 0
+  index: -1
+dragon/than
+  rotate: false
+  xy: 265, 67
+  size: 245, 173
+  orig: 245, 173
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a7e345a02cc1ac031eef55efe17cf6, type: 3}
+  m_Name: 'SkillSave'
+  m_EditorClassIdentifier: 
+  skillSaves:
+  - code: 'NORMAL-ATK'
+    level: 5
+    conditions: 000000000100000001000000
+  - code: 'TORNADO'
+    level: 0
+    conditions: 010000000000000001000000
+  - code: 'ADD-ATK'
+    level: 0
+    conditions: 000000000000000001000000
+  - code: 'ADD-HP'
+    level: 0
+    conditions: 000000000000000001000000
+  - code: 'ADD-DEF'
+    level: 0
+    conditions: 000000000000000001000000
+  - code: 'ADD-SPEED'
+    level: 0
+    conditions: 000000000000000001000000
+  - code: 'RESTORE-HP'
+    level: 0
+    conditions: 000000000000000001000000
+  - code: 'RETURN-DAMAGE'
+    level: 0
+    conditions: 000000000000000001000000
+  - code: 'SUMMON'
+    level: 0
+    conditions: 000000000000000001000000
+  - code: 'ADD-GOLD'
+    level: 0
+    conditions: 000000000000000001000000
+  - code: 'ADD-EXP'
+    level: 0
+    conditions: 000000000000000001000000
+  - code: 'ADD-MAT'
+    level: 0
+    conditions: 000000000000000001000000
+  - code: 'FAST-PUNCH'
+    level: 0
+    conditions: 000000000000000001000000
+  - code: 'FAST-SHOOT'
+    level: 0
+    conditions: 000000000000000001000000
+  - code: 'KAMEHA'
+    level: 0
+    conditions: 000000000000000001000000
+  - code: 'KENHKHI'
+    level: 0
+    conditions: 000000000000000001000000

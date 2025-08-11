@@ -1,0 +1,515 @@
+fileFormatVersion: 2
+guid: 4f38def0c0314e35b435be3af8fd07f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: final buff 1_0
+  - first:
+      213: 21300002
+    second: final buff 1_1
+  - first:
+      213: 21300004
+    second: final buff 1_2
+  - first:
+      213: 21300006
+    second: final buff 1_3
+  - first:
+      213: 21300008
+    second: final buff 1_4
+  - first:
+      213: 21300010
+    second: final buff 1_5
+  - first:
+      213: 21300012
+    second: final buff 1_6
+  - first:
+      213: 21300014
+    second: final buff 1_7
+  - first:
+      213: 21300016
+    second: final buff 1_8
+  - first:
+      213: 21300018
+    second: final buff 1_9
+  - first:
+      213: 21300020
+    second: final buff 1_10
+  - first:
+      213: 21300022
+    second: final buff 1_11
+  - first:
+      213: 21300024
+    second: final buff 1_12
+  - first:
+      213: 21300026
+    second: final buff 1_13
+  - first:
+      213: 21300028
+    second: final buff 1_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 56.38766
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: final buff 1_0
+      rect:
+        serializedVersion: 2
+        x: 60.07612
+        y: 775.076
+        width: 137.8477
+        height: 205.8477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5166e045851e841a24ef71cafcbb17
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final buff 1_1
+      rect:
+        serializedVersion: 2
+        x: 318.0761
+        y: 775.0513
+        width: 135.8971
+        height: 179.8726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f7d3dea2b793d4a914794fe9e8ded6
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final buff 1_2
+      rect:
+        serializedVersion: 2
+        x: 575.0761
+        y: 776.0914
+        width: 135.8477
+        height: 187.8324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737d7d5147302b94f8e16191d2717a8f
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final buff 1_3
+      rect:
+        serializedVersion: 2
+        x: 830.0129
+        y: 776.0428
+        width: 134.9508
+        height: 193.9116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e240fe33959bffb47b49bf1cd22ff6e0
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final buff 1_4
+      rect:
+        serializedVersion: 2
+        x: 60.07612
+        y: 519.0513
+        width: 137.8477
+        height: 221.9219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0fb331267246a4c999fbb0b8d13a89
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final buff 1_5
+      rect:
+        serializedVersion: 2
+        x: 317.0761
+        y: 519.0129
+        width: 139.881
+        height: 180.911
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5310ea59c6dcebd45af3418d32f66492
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final buff 1_6
+      rect:
+        serializedVersion: 2
+        x: 573.0761
+        y: 521.0477
+        width: 139.8477
+        height: 188.8762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0fcf4a1788518499c9b9221bdf973e
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final buff 1_7
+      rect:
+        serializedVersion: 2
+        x: 831.076
+        y: 521.0267
+        width: 135.8477
+        height: 199.8971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5e63f3afd30ff4a9fe7815d0862424
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final buff 1_8
+      rect:
+        serializedVersion: 2
+        x: 62.02675
+        y: 266.0513
+        width: 136.9303
+        height: 191.8726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3068f71aa9d18c469fd99c8f26095cc
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final buff 1_9
+      rect:
+        serializedVersion: 2
+        x: 319.0761
+        y: 267.0513
+        width: 137.8876
+        height: 203.8726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcdc62d1c4057b4e8fc8c706aecebe0
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final buff 1_10
+      rect:
+        serializedVersion: 2
+        x: 574.0761
+        y: 264.0761
+        width: 133.881
+        height: 217.8477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5edefff732ffb40a994b87e9040d43
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final buff 1_11
+      rect:
+        serializedVersion: 2
+        x: 831.0267
+        y: 264.0129
+        width: 134.937
+        height: 181.9442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ebcd9d97b92e548ad205634ecc4695
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final buff 1_12
+      rect:
+        serializedVersion: 2
+        x: 61.01467
+        y: 7.042908
+        width: 137.9092
+        height: 196.881
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddffcdd6e4b86c44d81fb674ad72fef0
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final buff 1_13
+      rect:
+        serializedVersion: 2
+        x: 318.0761
+        y: 7.07612
+        width: 135.8762
+        height: 207.8726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3baaaae66c497224298880ce6f9687a4
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final buff 1_14
+      rect:
+        serializedVersion: 2
+        x: 574.0761
+        y: 8.042908
+        width: 135.881
+        height: 211.881
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a417197a717b7c642b787c9cff96bc02
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      final buff 1_0: 21300000
+      final buff 1_1: 21300002
+      final buff 1_10: 21300020
+      final buff 1_11: 21300022
+      final buff 1_12: 21300024
+      final buff 1_13: 21300026
+      final buff 1_14: 21300028
+      final buff 1_2: 21300004
+      final buff 1_3: 21300006
+      final buff 1_4: 21300008
+      final buff 1_5: 21300010
+      final buff 1_6: 21300012
+      final buff 1_7: 21300014
+      final buff 1_8: 21300016
+      final buff 1_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

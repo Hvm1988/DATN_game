@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bcffb840bad71d268f93de1b232b970, type: 3}
+  m_Name: '1-19'
+  m_EditorClassIdentifier: 
+  code: '1-19'
+  turn1:
+  - 'Monster'
+  - '6'
+  - '9'
+  - 'Grian'
+  - '6'
+  - '9'
+  - 'Grian'
+  - '6'
+  - '9'
+  - 'ShieldMan'
+  - '9'
+  - '9'
+  turn2:
+  - 'Grian'
+  - '6'
+  - '9'
+  - 'ShieldMan'
+  - '9'
+  - '9'
+  - 'Drum'
+  - '3'
+  - '9'
+  - 'Grian'
+  - '6'
+  - '9'
+  - 'ShieldMan'
+  - '4'
+  - '10'
+  turn3:
+  - 'Drum'
+  - '3'
+  - '9'
+  - 'Grian'
+  - '6'
+  - '9'
+  - 'ShieldMan'
+  - '6'
+  - '10'
+  - 'Drum'
+  - '3'
+  - '9'
+  - 'Grian'
+  - '6'
+  - '10'
+  - 'ShieldMan'
+  - '6'
+  - '10'
+  boss: []
+  materialTurn1: 040000000600000006000000060000000700000006000000
+  materialTurn2: 050000000600000007000000060000000800000006000000
+  materialTurn3: 050000000600000006000000060000000800000006000000
+  scroll: 0300000008000000170000001C0000000C000000
+  nameLevel: 'Level 1-19'
+  description: 'This is Level 1-19'
+  exp: 400
+  gold: 500

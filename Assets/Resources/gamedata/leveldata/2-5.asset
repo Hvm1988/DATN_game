@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bcffb840bad71d268f93de1b232b970, type: 3}
+  m_Name: '2-5'
+  m_EditorClassIdentifier: 
+  code: '2-5'
+  turn1:
+  - 'GoraC2'
+  - '6'
+  - '13'
+  - 'Android19'
+  - '6'
+  - '13'
+  turn2:
+  - 'Chaos'
+  - '6'
+  - '13'
+  - 'Android19'
+  - '9'
+  - '14'
+  - 'Chaos'
+  - '6'
+  - '13'
+  - 'Android19'
+  - '9'
+  - '14'
+  turn3:
+  - 'GoraC2'
+  - '3'
+  - '14'
+  - 'Chaos'
+  - '6'
+  - '14'
+  - 'Android19'
+  - '6'
+  - '14'
+  - 'GoraC2'
+  - '3'
+  - '14'
+  - 'Chaos'
+  - '6'
+  - '14'
+  - 'Android19'
+  - '5'
+  - '14'
+  boss:
+  - 'Chaos2'
+  - '1'
+  - '15'
+  materialTurn1: 040000000800000005000000080000000600000008000000
+  materialTurn2: 05000000080000000700000008000000
+  materialTurn3: 040000000800000006000000080000000800000008000000
+  scroll: 0300000008000000170000001C0000000C000000
+  nameLevel: 'Level 2-5'
+  description: 'This is Level 2-5'
+  exp: 2150
+  gold: 2500

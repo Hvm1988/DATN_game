@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - hero
+  - heroAtt
+  - mutilSkill
+  - kameha
+  - circle
+  - heroSill3
+  - enemiesAtt
+  - heroSingleSkill
+  - moveLeft
+  - moveRight
+  - platform
+  - autoFire
+  - Pet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - coin
+  - platform
+  - box
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: 'Default'
+    uniqueID: 0
+    locked: 0
+  - name: 'Enemies'
+    uniqueID: 1937862603
+    locked: 0
+  - name: 'Hero'
+    uniqueID: 4080028993
+    locked: 0
+  - name: 'UI'
+    uniqueID: 3198232989
+    locked: 0
+  - name: 'Tutorial'
+    uniqueID: 886807283
+    locked: 0

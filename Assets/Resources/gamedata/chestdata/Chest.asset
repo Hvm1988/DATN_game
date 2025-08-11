@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22f38e1fbf6ec22143edf5cfadf049e, type: 3}
+  m_Name: 'Chest'
+  m_EditorClassIdentifier: 
+  chests:
+  - type: 0
+    minColor: 0
+    maxColor: 2
+  - type: 1
+    minColor: 1
+    maxColor: 3
+  - type: 0
+    minColor: 2
+    maxColor: 4
+  - type: 0
+    minColor: 3
+    maxColor: 5

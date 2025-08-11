@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bcffb840bad71d268f93de1b232b970, type: 3}
+  m_Name: '1-13'
+  m_EditorClassIdentifier: 
+  code: '1-13'
+  turn1:
+  - 'Monster'
+  - '6'
+  - '6'
+  - 'Drum'
+  - '6'
+  - '6'
+  turn2:
+  - 'Monster'
+  - '6'
+  - '7'
+  - 'Grian'
+  - '6'
+  - '7'
+  - 'Monster'
+  - '6'
+  - '7'
+  - 'Grian'
+  - '9'
+  - '7'
+  turn3:
+  - 'Monster'
+  - '3'
+  - '7'
+  - 'Drum'
+  - '6'
+  - '7'
+  - 'Grian'
+  - '6'
+  - '7'
+  - 'Monster'
+  - '3'
+  - '7'
+  - 'Drum'
+  - '6'
+  - '7'
+  - 'Grian'
+  - '6'
+  - '8'
+  boss: []
+  materialTurn1: 030000000600000005000000060000000700000006000000
+  materialTurn2: 04000000060000000600000006000000
+  materialTurn3: 040000000600000005000000060000000600000006000000
+  scroll: 0200000006000000160000001B0000000C000000
+  nameLevel: 'Level 1-13'
+  description: 'This is Level 1-13'
+  exp: 340
+  gold: 440

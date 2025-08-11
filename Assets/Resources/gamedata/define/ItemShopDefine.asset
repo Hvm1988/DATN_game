@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ba2a35dcc8e9e9484b26e1027aa5d16, type: 3}
+  m_Name: 'ItemShopDefine'
+  m_EditorClassIdentifier: 
+  items:
+  - name: 'Gold'
+    code: 'GOLD'
+    type: 0
+    icon: {fileID: 21300000, guid: f6f7d0d70dc649a78a6dce24c0e9ba14, type: 3}
+    scale: {x: 1, y: 1}
+  - name: 'Ruby'
+    code: 'RUBY'
+    type: 1
+    icon: {fileID: 21300000, guid: 04f948b92d8d49b384a5db696357cfd9, type: 3}
+    scale: {x: 1.4, y: 1.4}
+  - name: 'Skip'
+    code: 'SKIP'
+    type: 3
+    icon: {fileID: 21300000, guid: 1c38b0353936471481418debce6b4658, type: 3}
+    scale: {x: 0.8, y: 0.8}
+  - name: 'RES'
+    code: 'RES'
+    type: 2
+    icon: {fileID: 21300000, guid: 1c38b0353936471481418debce6b4658, type: 3}
+    scale: {x: 1, y: 1}
+  - name: 'KEY'
+    code: 'KEY'
+    type: 4
+    icon: {fileID: 21300000, guid: 1c38b0353936471481418debce6b4658, type: 3}
+    scale: {x: 1.4, y: 1.4}
+  - name: 'Main'
+    code: 'KEY'
+    type: 7
+    icon: {fileID: 21300000, guid: 1c38b0353936471481418debce6b4658, type: 3}
+    scale: {x: 1, y: 1}
+  - name: 'SCROLL'
+    code: 'KEY'
+    type: 6
+    icon: {fileID: 21300000, guid: 1c38b0353936471481418debce6b4658, type: 3}
+    scale: {x: 1.7, y: 1.7}
+  - name: 'ENERGY'
+    code: 'KEY'
+    type: 5
+    icon: {fileID: 21300000, guid: 1c38b0353936471481418debce6b4658, type: 3}
+    scale: {x: 1.3, y: 1.3}
+  scrollIcons:
+  - {fileID: 21300024, guid: a121522e9919460891f255f58a8133b4, type: 3}
+  - {fileID: 21300096, guid: a121522e9919460891f255f58a8133b4, type: 3}
+  - {fileID: 21300066, guid: a121522e9919460891f255f58a8133b4, type: 3}
+  - {fileID: 21300046, guid: a121522e9919460891f255f58a8133b4, type: 3}
+  - {fileID: 21300074, guid: a121522e9919460891f255f58a8133b4, type: 3}
+  - {fileID: 21300102, guid: a121522e9919460891f255f58a8133b4, type: 3}
+  scrollName:
+  - 'White scroll'
+  - 'Green scroll'
+  - 'Blue scroll'
+  - 'Pink scroll'
+  - 'Yellow scroll'
+  - 'Red scroll'

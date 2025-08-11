@@ -1,0 +1,328 @@
+
+Frieza.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 140, 161
+  size: 46, 85
+  orig: 46, 85
+  offset: 0, 0
+  index: -1
+Ban_chan_phai
+  rotate: false
+  xy: 2, 2
+  size: 56, 33
+  orig: 56, 33
+  offset: 0, 0
+  index: -1
+Ban_chan_trai
+  rotate: true
+  xy: 542, 378
+  size: 48, 35
+  orig: 48, 35
+  offset: 0, 0
+  index: -1
+Ban_tay_phai
+  rotate: false
+  xy: 140, 54
+  size: 49, 42
+  orig: 49, 42
+  offset: 0, 0
+  index: -1
+Ban_tay_trai
+  rotate: true
+  xy: 581, 460
+  size: 53, 44
+  orig: 53, 44
+  offset: 0, 0
+  index: -1
+Bap_chan_phai
+  rotate: false
+  xy: 364, 573
+  size: 80, 83
+  orig: 80, 83
+  offset: 0, 0
+  index: -1
+Bap_tay_phai
+  rotate: false
+  xy: 750, 781
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+Bap_tay_trai
+  rotate: false
+  xy: 905, 768
+  size: 81, 61
+  orig: 81, 61
+  offset: 0, 0
+  index: -1
+Blood/0
+  rotate: false
+  xy: 486, 428
+  size: 93, 71
+  orig: 93, 71
+  offset: 0, 0
+  index: -1
+Blood/A
+  rotate: false
+  xy: 633, 661
+  size: 118, 109
+  orig: 118, 109
+  offset: 0, 0
+  index: -1
+Blood/B
+  rotate: false
+  xy: 2, 248
+  size: 157, 157
+  orig: 157, 157
+  offset: 0, 0
+  index: -1
+Cang_chan_phai
+  rotate: false
+  xy: 579, 515
+  size: 46, 85
+  orig: 46, 85
+  offset: 0, 0
+  index: -1
+Cang_chan_phai_1
+  rotate: true
+  xy: 818, 783
+  size: 46, 85
+  orig: 46, 85
+  offset: 0, 0
+  index: -1
+Cang_chan_phai_2
+  rotate: false
+  xy: 510, 279
+  size: 46, 85
+  orig: 46, 85
+  offset: 0, 0
+  index: -1
+Cang_chan_trai
+  rotate: false
+  xy: 819, 697
+  size: 63, 84
+  orig: 63, 84
+  offset: 0, 0
+  index: -1
+Cang_tay_phai
+  rotate: false
+  xy: 188, 176
+  size: 54, 74
+  orig: 54, 74
+  offset: 0, 0
+  index: -1
+Cang_tay_trai
+  rotate: true
+  xy: 884, 706
+  size: 60, 77
+  orig: 60, 77
+  offset: 0, 0
+  index: -1
+Cang_tay_trai_1
+  rotate: true
+  xy: 463, 366
+  size: 60, 77
+  orig: 60, 77
+  offset: 0, 0
+  index: -1
+Cang_tay_trai_2
+  rotate: false
+  xy: 448, 287
+  size: 60, 77
+  orig: 60, 77
+  offset: 0, 0
+  index: -1
+Dau
+  rotate: false
+  xy: 161, 252
+  size: 105, 153
+  orig: 105, 153
+  offset: 0, 0
+  index: -1
+Dau2
+  rotate: true
+  xy: 845, 912
+  size: 105, 153
+  orig: 105, 153
+  offset: 0, 0
+  index: -1
+Dau3
+  rotate: true
+  xy: 828, 831
+  size: 79, 153
+  orig: 79, 153
+  offset: 0, 0
+  index: -1
+Dui_chan_trai
+  rotate: false
+  xy: 753, 682
+  size: 64, 97
+  orig: 64, 97
+  offset: 0, 0
+  index: -1
+Skill/Skill_1/0
+  rotate: false
+  xy: 140, 98
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+Skill/Skill_1/1
+  rotate: true
+  xy: 2, 37
+  size: 209, 67
+  orig: 209, 67
+  offset: 0, 0
+  index: -1
+Skill/Skill_1/2
+  rotate: true
+  xy: 71, 37
+  size: 209, 67
+  orig: 209, 67
+  offset: 0, 0
+  index: -1
+Skill/Skill_1/3
+  rotate: false
+  xy: 422, 703
+  size: 209, 67
+  orig: 209, 67
+  offset: 0, 0
+  index: -1
+Skill/Skill_1/4
+  rotate: false
+  xy: 2, 883
+  size: 418, 134
+  orig: 418, 134
+  offset: 0, 0
+  index: -1
+Skill/Skill_1/5
+  rotate: false
+  xy: 2, 747
+  size: 418, 134
+  orig: 418, 134
+  offset: 0, 0
+  index: -1
+Skill/Skill_1/6
+  rotate: false
+  xy: 2, 470
+  size: 314, 101
+  orig: 314, 101
+  offset: 0, 0
+  index: -1
+Skill/skill_2/0
+  rotate: false
+  xy: 446, 602
+  size: 91, 99
+  orig: 91, 99
+  offset: 0, 0
+  index: -1
+Skill/skill_2/1 (2)
+  rotate: false
+  xy: 539, 602
+  size: 91, 99
+  orig: 91, 99
+  offset: 0, 0
+  index: -1
+Skill/skill_2/2 (2)
+  rotate: false
+  xy: 486, 501
+  size: 91, 99
+  orig: 91, 99
+  offset: 0, 0
+  index: -1
+Skill/skill_2/3 (2)
+  rotate: true
+  xy: 632, 568
+  size: 91, 99
+  orig: 91, 99
+  offset: 0, 0
+  index: -1
+Skill/skill_2/4 (2)
+  rotate: true
+  xy: 627, 475
+  size: 91, 99
+  orig: 91, 99
+  offset: 0, 0
+  index: -1
+Skill/skill_2/5 (2)
+  rotate: false
+  xy: 370, 366
+  size: 91, 99
+  orig: 91, 99
+  offset: 0, 0
+  index: -1
+Skill/skill_2/6
+  rotate: true
+  xy: 370, 268
+  size: 96, 76
+  orig: 96, 76
+  offset: 0, 0
+  index: -1
+Skill/skill_2/7
+  rotate: true
+  xy: 318, 467
+  size: 104, 82
+  orig: 104, 82
+  offset: 0, 0
+  index: -1
+Skill/skill_2/8
+  rotate: true
+  xy: 402, 467
+  size: 104, 82
+  orig: 104, 82
+  offset: 0, 0
+  index: -1
+Skill/smoke/0
+  rotate: false
+  xy: 2, 407
+  size: 304, 61
+  orig: 304, 61
+  offset: 0, 0
+  index: -1
+Skill/smoke/1
+  rotate: false
+  xy: 422, 772
+  size: 326, 71
+  orig: 326, 71
+  offset: 0, 0
+  index: -1
+Skill/smoke/2
+  rotate: false
+  xy: 2, 573
+  size: 360, 83
+  orig: 360, 83
+  offset: 0, 0
+  index: -1
+Skill/smoke/3
+  rotate: false
+  xy: 422, 845
+  size: 404, 85
+  orig: 404, 85
+  offset: 0, 0
+  index: -1
+Skill/smoke/4
+  rotate: false
+  xy: 2, 658
+  size: 411, 87
+  orig: 411, 87
+  offset: 0, 0
+  index: -1
+Skill/smoke/5
+  rotate: false
+  xy: 422, 932
+  size: 421, 85
+  orig: 421, 85
+  offset: 0, 0
+  index: -1
+Than
+  rotate: false
+  xy: 268, 254
+  size: 100, 151
+  orig: 100, 151
+  offset: 0, 0
+  index: -1

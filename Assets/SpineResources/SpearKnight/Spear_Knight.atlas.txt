@@ -1,0 +1,265 @@
+
+Spear_Knight.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 8 copy
+  rotate: false
+  xy: 802, 856
+  size: 67, 85
+  orig: 67, 85
+  offset: 0, 0
+  index: -1
+Spear
+  rotate: false
+  xy: 2, 936
+  size: 494, 72
+  orig: 494, 72
+  offset: 0, 0
+  index: -1
+Spear copy
+  rotate: false
+  xy: 498, 943
+  size: 373, 65
+  orig: 373, 65
+  offset: 0, 0
+  index: -1
+Spear-copy1
+  rotate: true
+  xy: 424, 561
+  size: 373, 65
+  orig: 373, 65
+  offset: 0, 0
+  index: -1
+arm_left
+  rotate: true
+  xy: 677, 584
+  size: 42, 76
+  orig: 42, 76
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 491, 582
+  size: 103, 105
+  orig: 103, 105
+  offset: 0, 0
+  index: -1
+body copy
+  rotate: true
+  xy: 424, 480
+  size: 79, 80
+  orig: 79, 80
+  offset: 0, 0
+  index: -1
+eff
+  rotate: false
+  xy: 2, 129
+  size: 187, 166
+  orig: 187, 166
+  offset: 0, 0
+  index: -1
+eff-01/1
+  rotate: false
+  xy: 2, 822
+  size: 420, 112
+  orig: 420, 112
+  offset: 0, 0
+  index: -1
+eff-01/2
+  rotate: false
+  xy: 2, 708
+  size: 420, 112
+  orig: 420, 112
+  offset: 0, 0
+  index: -1
+eff-01/3
+  rotate: false
+  xy: 2, 594
+  size: 420, 112
+  orig: 420, 112
+  offset: 0, 0
+  index: -1
+eff-01/4
+  rotate: false
+  xy: 2, 480
+  size: 420, 112
+  orig: 420, 112
+  offset: 0, 0
+  index: -1
+eff_04/eff4
+  rotate: false
+  xy: 217, 324
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+eff_05/3
+  rotate: false
+  xy: 2, 297
+  size: 213, 181
+  orig: 213, 181
+  offset: 0, 0
+  index: -1
+foot_left
+  rotate: true
+  xy: 343, 157
+  size: 38, 23
+  orig: 38, 23
+  offset: 0, 0
+  index: -1
+foot_right
+  rotate: true
+  xy: 191, 259
+  size: 36, 24
+  orig: 36, 24
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 596, 590
+  size: 79, 97
+  orig: 79, 97
+  offset: 0, 0
+  index: -1
+high_arm_right
+  rotate: false
+  xy: 677, 628
+  size: 76, 59
+  orig: 76, 59
+  offset: 0, 0
+  index: -1
+high_left_leg
+  rotate: false
+  xy: 506, 521
+  size: 70, 59
+  orig: 70, 59
+  offset: 0, 0
+  index: -1
+high_right_leg
+  rotate: false
+  xy: 755, 615
+  size: 51, 72
+  orig: 51, 72
+  offset: 0, 0
+  index: -1
+hip
+  rotate: true
+  xy: 506, 466
+  size: 53, 62
+  orig: 53, 62
+  offset: 0, 0
+  index: -1
+image 1
+  rotate: false
+  xy: 2, 2
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+image 11
+  rotate: false
+  xy: 498, 816
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+image 13
+  rotate: false
+  xy: 650, 816
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+image 15
+  rotate: false
+  xy: 491, 689
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+image 17
+  rotate: false
+  xy: 643, 689
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+image 3
+  rotate: true
+  xy: 373, 328
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+image 5
+  rotate: true
+  xy: 873, 858
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+image 7
+  rotate: false
+  xy: 217, 197
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+image 9
+  rotate: false
+  xy: 191, 70
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+left_hand
+  rotate: false
+  xy: 500, 342
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+lower_arm_left
+  rotate: false
+  xy: 500, 373
+  size: 36, 38
+  orig: 36, 38
+  offset: 0, 0
+  index: -1
+lower_arm_right
+  rotate: false
+  xy: 154, 64
+  size: 32, 63
+  orig: 32, 63
+  offset: 0, 0
+  index: -1
+lower_left_leg
+  rotate: false
+  xy: 154, 4
+  size: 30, 58
+  orig: 30, 58
+  offset: 0, 0
+  index: -1
+lower_right_leg
+  rotate: false
+  xy: 500, 413
+  size: 43, 51
+  orig: 43, 51
+  offset: 0, 0
+  index: -1
+other
+  rotate: true
+  xy: 802, 822
+  size: 32, 63
+  orig: 32, 63
+  offset: 0, 0
+  index: -1
+right_hand
+  rotate: true
+  xy: 755, 584
+  size: 29, 33
+  orig: 29, 33
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,167 @@
+
+A19 anim .png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0
+  rotate: false
+  xy: 488, 9
+  size: 104, 83
+  orig: 104, 83
+  offset: 0, 0
+  index: -1
+1
+  rotate: true
+  xy: 594, 6
+  size: 92, 134
+  orig: 92, 134
+  offset: 0, 0
+  index: -1
+a1
+  rotate: true
+  xy: 106, 94
+  size: 160, 102
+  orig: 160, 102
+  offset: 0, 0
+  index: -1
+a2
+  rotate: true
+  xy: 210, 94
+  size: 160, 102
+  orig: 160, 102
+  offset: 0, 0
+  index: -1
+a2.1
+  rotate: true
+  xy: 2, 94
+  size: 160, 102
+  orig: 160, 102
+  offset: 0, 0
+  index: -1
+a3
+  rotate: true
+  xy: 314, 94
+  size: 160, 102
+  orig: 160, 102
+  offset: 0, 0
+  index: -1
+a3.1
+  rotate: true
+  xy: 909, 126
+  size: 128, 75
+  orig: 128, 75
+  offset: 0, 0
+  index: -1
+a4
+  rotate: true
+  xy: 418, 94
+  size: 160, 102
+  orig: 160, 102
+  offset: 0, 0
+  index: -1
+ban chan L
+  rotate: true
+  xy: 986, 196
+  size: 58, 27
+  orig: 58, 27
+  offset: 0, 0
+  index: -1
+ban chan R
+  rotate: true
+  xy: 986, 136
+  size: 58, 27
+  orig: 58, 27
+  offset: 0, 0
+  index: -1
+ban tay L
+  rotate: false
+  xy: 672, 108
+  size: 105, 146
+  orig: 105, 146
+  offset: 0, 0
+  index: -1
+bap R
+  rotate: false
+  xy: 730, 6
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+chan L
+  rotate: false
+  xy: 912, 2
+  size: 49, 51
+  orig: 49, 51
+  offset: 0, 0
+  index: -1
+chan R
+  rotate: false
+  xy: 963, 4
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+dau
+  rotate: false
+  xy: 832, 5
+  size: 78, 108
+  orig: 78, 108
+  offset: 0, 0
+  index: -1
+dui L
+  rotate: false
+  xy: 912, 55
+  size: 77, 69
+  orig: 77, 69
+  offset: 0, 0
+  index: -1
+dui R
+  rotate: false
+  xy: 410, 7
+  size: 76, 85
+  orig: 76, 85
+  offset: 0, 0
+  index: -1
+hong
+  rotate: false
+  xy: 114, 4
+  size: 124, 88
+  orig: 124, 88
+  offset: 0, 0
+  index: -1
+tay L
+  rotate: true
+  xy: 240, 4
+  size: 88, 87
+  orig: 88, 87
+  offset: 0, 0
+  index: -1
+tay R
+  rotate: false
+  xy: 779, 115
+  size: 128, 139
+  orig: 128, 139
+  offset: 0, 0
+  index: -1
+than
+  rotate: true
+  xy: 522, 100
+  size: 154, 148
+  orig: 154, 148
+  offset: 0, 0
+  index: -1
+vai L
+  rotate: true
+  xy: 329, 4
+  size: 88, 79
+  orig: 88, 79
+  offset: 0, 0
+  index: -1
+vai R
+  rotate: false
+  xy: 2, 3
+  size: 110, 89
+  orig: 110, 89
+  offset: 0, 0
+  index: -1

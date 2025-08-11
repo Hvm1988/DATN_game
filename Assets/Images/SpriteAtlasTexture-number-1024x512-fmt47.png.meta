@@ -1,0 +1,1490 @@
+fileFormatVersion: 2
+guid: e97b3092df7d4652bf7a676463f76b25
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: numberWhite_0
+  - first:
+      213: 21300002
+    second: numberWhite_10
+  - first:
+      213: 21300004
+    second: number_pink_0
+  - first:
+      213: 21300006
+    second: numberRed_0
+  - first:
+      213: 21300008
+    second: numberGold_0
+  - first:
+      213: 21300010
+    second: numberGreen_0
+  - first:
+      213: 21300012
+    second: number_pink_1
+  - first:
+      213: 21300014
+    second: numberWhite_1
+  - first:
+      213: 21300016
+    second: numberRed_1
+  - first:
+      213: 21300018
+    second: numberGold_1
+  - first:
+      213: 21300020
+    second: numberGreen_1
+  - first:
+      213: 21300022
+    second: number_pink_2
+  - first:
+      213: 21300024
+    second: numberWhite_2
+  - first:
+      213: 21300026
+    second: numberRed_2
+  - first:
+      213: 21300028
+    second: numberGold_2
+  - first:
+      213: 21300030
+    second: numberGreen_2
+  - first:
+      213: 21300032
+    second: number_pink_3
+  - first:
+      213: 21300034
+    second: numberWhite_3
+  - first:
+      213: 21300036
+    second: numberRed_3
+  - first:
+      213: 21300038
+    second: numberGold_3
+  - first:
+      213: 21300040
+    second: numberGreen_3
+  - first:
+      213: 21300042
+    second: number_pink_4
+  - first:
+      213: 21300044
+    second: numberWhite_4
+  - first:
+      213: 21300046
+    second: numberRed_4
+  - first:
+      213: 21300048
+    second: numberGold_4
+  - first:
+      213: 21300050
+    second: numberGreen_4
+  - first:
+      213: 21300052
+    second: number_pink_5
+  - first:
+      213: 21300054
+    second: numberWhite_5
+  - first:
+      213: 21300056
+    second: numberRed_5
+  - first:
+      213: 21300058
+    second: numberGold_5
+  - first:
+      213: 21300060
+    second: numberGreen_5
+  - first:
+      213: 21300062
+    second: number_pink_6
+  - first:
+      213: 21300064
+    second: numberWhite_6
+  - first:
+      213: 21300066
+    second: numberRed_6
+  - first:
+      213: 21300068
+    second: numberGold_6
+  - first:
+      213: 21300070
+    second: numberGreen_6
+  - first:
+      213: 21300072
+    second: number_pink_7
+  - first:
+      213: 21300074
+    second: numberWhite_7
+  - first:
+      213: 21300076
+    second: numberRed_7
+  - first:
+      213: 21300078
+    second: numberGold_7
+  - first:
+      213: 21300080
+    second: numberGreen_7
+  - first:
+      213: 21300082
+    second: number_pink_8
+  - first:
+      213: 21300084
+    second: numberWhite_8
+  - first:
+      213: 21300086
+    second: numberRed_8
+  - first:
+      213: 21300088
+    second: numberGold_8
+  - first:
+      213: 21300090
+    second: numberGreen_8
+  - first:
+      213: 21300092
+    second: number_pink_9
+  - first:
+      213: 21300094
+    second: numberWhite_9
+  - first:
+      213: 21300096
+    second: numberRed_9
+  - first:
+      213: 21300098
+    second: numberGold_9
+  - first:
+      213: 21300100
+    second: numberGreen_9
+  - first:
+      213: 21300102
+    second: number_pink_11
+  - first:
+      213: 21300104
+    second: numberGold_11
+  - first:
+      213: 21300106
+    second: numberGreen_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: numberWhite_0
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 307
+        width: 48
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91aadfdfb17ba8947839af8e4e8dd977
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberWhite_10
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 0
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5609afa7137e76641969de61be213829
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: number_pink_0
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 295
+        width: 48
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89100bd4e46a144faf6be3e73369811
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberRed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 48
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a69dce8a9c7b4344ba8a5de158060c0
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGold_0
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 394
+        width: 48
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d970cb32a35c5d74f829b33eb2f0f0aa
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGreen_0
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 382
+        width: 48
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e0ce06321978d4aba4720c200d05b7
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: number_pink_1
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 202
+        width: 41
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7367c11b50d24142acbb51c9f50b592
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberWhite_1
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 101
+        width: 41
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80101f030d368e442a16141a9af3bc7a
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberRed_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 299
+        width: 41
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40580472c17887468a2d5b31d2dd2dd
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGold_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 384
+        width: 41
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09f9477f9af013469a28830f59011eb
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGreen_1
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 202
+        width: 41
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a5f5c94ec72fb45b14bbc976d512cc
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: number_pink_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 199
+        width: 52
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b009e6626e45848bed8af053733b8a
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberWhite_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 52
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946f089ffd3fa21439df0303178eb4d3
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberRed_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 199
+        width: 52
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a1de8d4461c164c8911cc3d4112557
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGold_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 52
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c21985e1861ce4dbb22024d8734099
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGreen_2
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 205
+        width: 52
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab9ae1b5100ef1428b5aa01b3eafb02
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: number_pink_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 298
+        width: 48
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12131811c4a3ae498bb451924b75d35
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberWhite_3
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 307
+        width: 48
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e086383b100d95d468947f0cfe0bfda2
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberRed_3
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 206
+        width: 48
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a89af55b4b08544b89cd2b834c3c35
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGold_3
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 396
+        width: 48
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcb92211ecf7c44eb00b967b5ee77ec
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGreen_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 384
+        width: 48
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42357a2f7ccf7e74a95dfebc36c7f039
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: number_pink_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 50
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507c60d751286374b849880477302079
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberWhite_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 50
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396ccf4f0a5262f49a0e7db5509fbbab
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberRed_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 104
+        width: 50
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5968d35a682718343889b8fef54bc180
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGold_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 50
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909feade485e22d4c96809df846dfe8c
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGreen_4
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 0
+        width: 50
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b05e2ac3a54d04d9fd9d9952b29268
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: number_pink_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 289
+        width: 48
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f941a8700ab7aae41b2ecc7aad0e8cc3
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberWhite_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 289
+        width: 48
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e815b6a81f69645945da17aabd54c5
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberRed_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 384
+        width: 48
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1767d74e771d8a54b8f6192c011a766f
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGold_5
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 204
+        width: 48
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c6ec50427bdd346900b5fdc17b8af3
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGreen_5
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 295
+        width: 48
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1547ea7268225b240a69cd65de8484d6
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: number_pink_6
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 101
+        width: 48
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc129ff7e3caff64283fc1e2c2f12208
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberWhite_6
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 101
+        width: 48
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6e7a10a4e9cb94cb23ac19041792db
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberRed_6
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 101
+        width: 48
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7c02118dfd03142b0acbb6acb0662d
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGold_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 48
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8e700130e3657499bda0084568874e
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGreen_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 199
+        width: 48
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be95feb2453006d4b82ce9ee7eaafa77
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: number_pink_7
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4e5098066a0f64d9abb66530753e03
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberWhite_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f21757288ca26646b6c0ab869a38453
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberRed_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2892dd287bcff84f8b9f7dcfab2f141
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGold_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8375ccbd75d1224b926be27d8848f75
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGreen_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5b9b1a28b40e642aa0f3396b7b6d94
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: number_pink_8
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 0
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b606301ce3602f4783c22ccb88bd673
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberWhite_8
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 0
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21c2241bb5941449913a0b05cdd9b90
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberRed_8
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 0
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5a6ee2c942b24428032fbf35b40352
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGold_8
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 92
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06573ac27c4899642972281ea435b11c
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGreen_8
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 184
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be219bde2f6bc94a88ec8e886a78a7c
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: number_pink_9
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 95
+        width: 50
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4624063649cc51347a5ff17d4b8408e0
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberWhite_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 95
+        width: 50
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19713ca49f11514bbe944800622c676
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberRed_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 95
+        width: 50
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f437714f846ace4ebb7c6961d94a402
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGold_9
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 50
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0221a21e86b2cb4428dd4ae6405e2e1a
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGreen_9
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 104
+        width: 50
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c440f8521017a7449a09af8440a4f57c
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: number_pink_11
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 0
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2498c7094bf09a0459286d7782143023
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGold_11
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 64
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c48eb25e68533409bf8bf224788938
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numberGreen_11
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 156
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd3e784470150d4f8e0b6264ddb8c76
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      numberGold_0: 21300008
+      numberGold_1: 21300018
+      numberGold_11: 21300104
+      numberGold_2: 21300028
+      numberGold_3: 21300038
+      numberGold_4: 21300048
+      numberGold_5: 21300058
+      numberGold_6: 21300068
+      numberGold_7: 21300078
+      numberGold_8: 21300088
+      numberGold_9: 21300098
+      numberGreen_0: 21300010
+      numberGreen_1: 21300020
+      numberGreen_11: 21300106
+      numberGreen_2: 21300030
+      numberGreen_3: 21300040
+      numberGreen_4: 21300050
+      numberGreen_5: 21300060
+      numberGreen_6: 21300070
+      numberGreen_7: 21300080
+      numberGreen_8: 21300090
+      numberGreen_9: 21300100
+      numberRed_0: 21300006
+      numberRed_1: 21300016
+      numberRed_2: 21300026
+      numberRed_3: 21300036
+      numberRed_4: 21300046
+      numberRed_5: 21300056
+      numberRed_6: 21300066
+      numberRed_7: 21300076
+      numberRed_8: 21300086
+      numberRed_9: 21300096
+      numberWhite_0: 21300000
+      numberWhite_1: 21300014
+      numberWhite_10: 21300002
+      numberWhite_2: 21300024
+      numberWhite_3: 21300034
+      numberWhite_4: 21300044
+      numberWhite_5: 21300054
+      numberWhite_6: 21300064
+      numberWhite_7: 21300074
+      numberWhite_8: 21300084
+      numberWhite_9: 21300094
+      number_pink_0: 21300004
+      number_pink_1: 21300012
+      number_pink_11: 21300102
+      number_pink_2: 21300022
+      number_pink_3: 21300032
+      number_pink_4: 21300042
+      number_pink_5: 21300052
+      number_pink_6: 21300062
+      number_pink_7: 21300072
+      number_pink_8: 21300082
+      number_pink_9: 21300092
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

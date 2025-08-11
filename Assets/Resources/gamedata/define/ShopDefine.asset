@@ -1,0 +1,384 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe6e44a84496b387df7aaf2fa7c8eff6, type: 3}
+  m_Name: 'ShopDefine'
+  m_EditorClassIdentifier: 
+  packages:
+  - name: 'starter'
+    price: 2
+    realPrice: 1
+    bonusValue: 0
+    items:
+    - code: 'GOLD'
+      type: 0
+      number: 50000
+    - code: 'RUBY'
+      type: 1
+      number: 2000
+    - code: 'SKIP'
+      type: 3
+      number: 30
+  - name: 'material'
+    price: 4
+    realPrice: 2
+    bonusValue: 0
+    items:
+    - code: 'VAI-THO'
+      type: 2
+      number: 200
+    - code: 'LONG-VU'
+      type: 2
+      number: 200
+    - code: 'DA-THU'
+      type: 2
+      number: 200
+    - code: 'CAT'
+      type: 2
+      number: 100
+    - code: 'SILVER-KEY'
+      type: 4
+      number: 50
+  - name: 'diamond'
+    price: 6
+    realPrice: 3
+    bonusValue: 0
+    items:
+    - code: 'GOLD'
+      type: 0
+      number: 500000
+    - code: 'RUBY'
+      type: 1
+      number: 7500
+    - code: 'SKIP'
+      type: 3
+      number: 150
+    - code: 'SILVER-KEY'
+      type: 4
+      number: 50
+    - code: 'GOLDEN-KEY'
+      type: 4
+      number: 10
+    - code: 'DIAMOND-KEY'
+      type: 4
+      number: 10
+  - name: 'plantium'
+    price: 12
+    realPrice: 6
+    bonusValue: 0
+    items:
+    - code: 'GOLD'
+      type: 0
+      number: 1000000
+    - code: 'RUBY'
+      type: 1
+      number: 15000
+    - code: 'SKIP'
+      type: 3
+      number: 400
+    - code: 'SILVER-KEY'
+      type: 4
+      number: 50
+    - code: 'GOLDEN-KEY'
+      type: 4
+      number: 20
+    - code: 'DIAMOND-KEY'
+      type: 4
+      number: 20
+  - name: 'super'
+    price: 26
+    realPrice: 13
+    bonusValue: 0
+    items:
+    - code: 'GOLD'
+      type: 0
+      number: 2000000
+    - code: 'RUBY'
+      type: 1
+      number: 30000
+    - code: 'SKIP'
+      type: 3
+      number: 1000
+    - code: 'DIAMOND-KEY'
+      type: 4
+      number: 30
+  - name: 'rich'
+    price: 52
+    realPrice: 26
+    bonusValue: 0
+    items:
+    - code: 'GOLD'
+      type: 0
+      number: 5000000
+    - code: 'RUBY'
+      type: 1
+      number: 60000
+    - code: 'SKIP'
+      type: 3
+      number: 2000
+    - code: 'DIAMOND-KEY'
+      type: 4
+      number: 40
+    - code: 'LEGENDARY-KEY'
+      type: 4
+      number: 5
+  rubys:
+  - name: 'Gem pack 1'
+    price: 1
+    realPrice: 1
+    bonusValue: 0
+    item:
+      code: 'RUBY'
+      type: 1
+      number: 150
+    code: 'GEM-PACK-1'
+    firstTimeBonus: 60
+  - name: 'Gem pack 2'
+    price: 2
+    realPrice: 2
+    bonusValue: 0
+    item:
+      code: 'RUBY'
+      type: 1
+      number: 250
+    code: 'GEM-PACK-2'
+    firstTimeBonus: 100
+  - name: 'Gem pack 3'
+    price: 3
+    realPrice: 3
+    bonusValue: 0
+    item:
+      code: 'RUBY'
+      type: 1
+      number: 500
+    code: 'GEM-PACK-3'
+    firstTimeBonus: 100
+  - name: 'Gem pack 4'
+    price: 5
+    realPrice: 5
+    bonusValue: 0
+    item:
+      code: 'RUBY'
+      type: 1
+      number: 1000
+    code: 'GEM-PACK-4'
+    firstTimeBonus: 100
+  - name: 'Gem pack 5'
+    price: 10
+    realPrice: 10
+    bonusValue: 0
+    item:
+      code: 'RUBY'
+      type: 1
+      number: 2200
+    code: 'GEM-PACK-5'
+    firstTimeBonus: 100
+  - name: 'Gem pack 6'
+    price: 20
+    realPrice: 20
+    bonusValue: 0
+    item:
+      code: 'RUBY'
+      type: 1
+      number: 5000
+    code: 'GEM-PACK-6'
+    firstTimeBonus: 100
+  items:
+  - name: 
+    price: 1
+    realPrice: 1
+    bonusValue: 0
+    item:
+      code: 'DIAMOND-KEY'
+      type: 4
+      number: 1
+    code: 
+    firstTimeBonus: 0
+  - name: 
+    price: 1
+    realPrice: 1
+    bonusValue: 0
+    item:
+      code: '3'
+      type: 8
+      number: 1
+    code: 
+    firstTimeBonus: 0
+  - name: 
+    price: 1
+    realPrice: 1
+    bonusValue: 0
+    item:
+      code: '4'
+      type: 8
+      number: 1
+    code: 
+    firstTimeBonus: 0
+  - name: 
+    price: 1
+    realPrice: 1
+    bonusValue: 0
+    item:
+      code: 'VAI-THO'
+      type: 2
+      number: 30
+    code: 
+    firstTimeBonus: 0
+  - name: 
+    price: 1
+    realPrice: 1
+    bonusValue: 0
+    item:
+      code: 'THAO-MOC'
+      type: 2
+      number: 30
+    code: 
+    firstTimeBonus: 0
+  - name: 
+    price: 1
+    realPrice: 1
+    bonusValue: 0
+    item:
+      code: 'DA-THU'
+      type: 2
+      number: 30
+    code: 
+    firstTimeBonus: 0
+  - name: 
+    price: 1
+    realPrice: 1
+    bonusValue: 0
+    item:
+      code: 'LONG-VU'
+      type: 2
+      number: 30
+    code: 
+    firstTimeBonus: 0
+  - name: 
+    price: 1
+    realPrice: 1
+    bonusValue: 0
+    item:
+      code: 'GO-TRON'
+      type: 2
+      number: 30
+    code: 
+    firstTimeBonus: 0
+  - name: 
+    price: 1
+    realPrice: 1
+    bonusValue: 0
+    item:
+      code: 'DA-VU-TRU'
+      type: 2
+      number: 30
+    code: 
+    firstTimeBonus: 0
+  - name: 
+    price: 1
+    realPrice: 1
+    bonusValue: 0
+    item:
+      code: 'CAT'
+      type: 2
+      number: 30
+    code: 
+    firstTimeBonus: 0
+  - name: 
+    price: 1
+    realPrice: 1
+    bonusValue: 0
+    item:
+      code: 'DA-TINH-ANH'
+      type: 2
+      number: 30
+    code: 
+    firstTimeBonus: 0
+  - name: 
+    price: 1
+    realPrice: 1
+    bonusValue: 0
+    item:
+      code: 'MAI-RUA'
+      type: 2
+      number: 30
+    code: 
+    firstTimeBonus: 0
+  - name: 
+    price: 1
+    realPrice: 1
+    bonusValue: 0
+    item:
+      code: 'DRAGON-ENERGY'
+      type: 2
+      number: 30
+    code: 
+    firstTimeBonus: 0
+  - name: 
+    price: 1
+    realPrice: 1
+    bonusValue: 0
+    item:
+      code: 'LINHHON-NAMEX'
+      type: 2
+      number: 30
+    code: 
+    firstTimeBonus: 0
+  - name: 
+    price: 1
+    realPrice: 1
+    bonusValue: 0
+    item:
+      code: 'RANGNANH-KHIDOT'
+      type: 2
+      number: 30
+    code: 
+    firstTimeBonus: 0
+  staminas:
+  - name: 'Stamina 1'
+    price: 100
+    realPrice: 100
+    bonusValue: 20
+    item:
+      code: 'ENERGY'
+      type: 5
+      number: 100
+    code: 
+    firstTimeBonus: 0
+  - name: 'Stamina 2'
+    price: 500
+    realPrice: 500
+    bonusValue: 40
+    item:
+      code: 'ENERGY'
+      type: 5
+      number: 500
+    code: 
+    firstTimeBonus: 0
+  - name: 'Stamina 3'
+    price: 1000
+    realPrice: 1000
+    bonusValue: 50
+    item:
+      code: 'ENERGY'
+      type: 5
+      number: 1000
+    code: 
+    firstTimeBonus: 0
+  - name: 'Stamina 4'
+    price: 5000
+    realPrice: 5000
+    bonusValue: 50
+    item:
+      code: 'ENERGY'
+      type: 5
+      number: 5000
+    code: 
+    firstTimeBonus: 0

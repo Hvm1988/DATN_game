@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dc095d2e0aa298d688d815a28112731, type: 3}
+  m_Name: 'MissionDefine'
+  m_EditorClassIdentifier: 
+  missions:
+  - code: 'KILL-MONS'
+    detail: 'Kill #VALUE <Color=#64FF1FFF>monster</Color>'
+    icon: {fileID: 21300000, guid: c6c7e1aa6b6a4884a3f8759e2bbe9573, type: 3}
+    number: 100
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 20
+  - code: 'UP-ARMOR'
+    detail: 'Upgrade <Color=#64FF1FFF>armor</Color> #VALUE times'
+    icon: {fileID: 21300000, guid: c5ad8a13a7fd49548786cb374e11a4ba, type: 3}
+    number: 5
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 12
+  - code: 'UP-SHOE'
+    detail: 'Upgrade <Color=#64FF1FFF>shoe</Color> #VALUE times'
+    icon: {fileID: 21300000, guid: c5ad8a13a7fd49548786cb374e11a4ba, type: 3}
+    number: 5
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 12
+  - code: 'UP-GLOVER'
+    detail: 'Upgrade <Color=#64FF1FFF>glover</Color> #VALUE times'
+    icon: {fileID: 21300000, guid: c5ad8a13a7fd49548786cb374e11a4ba, type: 3}
+    number: 5
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 12
+  - code: 'UP-PANTS'
+    detail: 'Upgrade <Color=#64FF1FFF>pants</Color> #VALUE times'
+    icon: {fileID: 21300000, guid: c5ad8a13a7fd49548786cb374e11a4ba, type: 3}
+    number: 5
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 12
+  - code: 'PASS-LEVEL'
+    detail: 'Pass #VALUE <Color=#64FF1FFF>level</Color>'
+    icon: {fileID: 21300000, guid: c25731a90a6d4fac89511a789d86f970, type: 3}
+    number: 10
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 50
+  - code: 'UP-SKILL'
+    detail: 'Upgrade <Color=#64FF1FFF>skill</Color> #VALUE times'
+    icon: {fileID: 21300000, guid: 86cf65ca2bf24c8d8950b82b641fc99b, type: 3}
+    number: 3
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 20
+  - code: 'PURCHASER'
+    detail: '<Color=#64FF1FFF>Purchaser</Color> #VALUE times'
+    icon: {fileID: 21300000, guid: 5e713f4c885d421ba17c1e8d9765d171, type: 3}
+    number: 1
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 20
+  - code: 'CRAFT'
+    detail: '<Color=#64FF1FFF>Craft</Color> #VALUE items'
+    icon: {fileID: 21300000, guid: ef806e55f7eb4013b8ad1b47e5589097, type: 3}
+    number: 2
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 15
+  - code: 'KILL-BOSS'
+    detail: 'Kill #VALUE <Color=#64FF1FFF>boss</Color>'
+    icon: {fileID: 21300000, guid: 0f07ed1851de4a878e63e3d411452edb, type: 3}
+    number: 5
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 20
+  - code: 'COMPLETE-ALL'
+    detail: 'Complete <Color=#64FF1FFF>all</Color> mission'
+    icon: {fileID: 21300000, guid: 0f07ed1851de4a878e63e3d411452edb, type: 3}
+    number: 10
+    gift:
+      code: 'RUBY'
+      type: 1
+      number: 100

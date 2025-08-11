@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bcffb840bad71d268f93de1b232b970, type: 3}
+  m_Name: '1-10'
+  m_EditorClassIdentifier: 
+  code: '1-10'
+  turn1:
+  - 'Monster'
+  - '6'
+  - '6'
+  - 'Drum'
+  - '6'
+  - '6'
+  turn2:
+  - 'Drum'
+  - '6'
+  - '6'
+  - 'Grian'
+  - '6'
+  - '6'
+  - 'Drum'
+  - '6'
+  - '6'
+  - 'Grian'
+  - '6'
+  - '7'
+  turn3:
+  - 'Monster'
+  - '3'
+  - '6'
+  - 'Drum'
+  - '3'
+  - '6'
+  - 'Grian'
+  - '9'
+  - '7'
+  - 'Monster'
+  - '3'
+  - '7'
+  - 'Drum'
+  - '3'
+  - '7'
+  - 'Grian'
+  - '9'
+  - '7'
+  boss:
+  - 'Gora'
+  - '1'
+  - '8'
+  materialTurn1: 020000000500000003000000050000000400000005000000
+  materialTurn2: 020000000500000003000000050000000500000005000000
+  materialTurn3: 0200000005000000040000000500000005000000050000000600000005000000
+  scroll: 0100000006000000020000000700000010000000
+  nameLevel: 'Level 1-10'
+  description: 'This is Level 1-10'
+  exp: 310
+  gold: 410

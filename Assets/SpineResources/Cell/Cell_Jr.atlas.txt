@@ -1,0 +1,132 @@
+
+Cell_Jr.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blood/A
+  rotate: false
+  xy: 161, 122
+  size: 118, 109
+  orig: 118, 109
+  offset: 0, 0
+  index: -1
+Blood/B
+  rotate: false
+  xy: 2, 74
+  size: 157, 157
+  orig: 157, 157
+  offset: 0, 0
+  index: -1
+Chan_phai
+  rotate: false
+  xy: 356, 99
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+Chan_phai_bap
+  rotate: true
+  xy: 349, 135
+  size: 34, 53
+  orig: 34, 53
+  offset: 0, 0
+  index: -1
+Chan_phai_dui
+  rotate: true
+  xy: 224, 81
+  size: 39, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+Chan_trai
+  rotate: false
+  xy: 394, 100
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+Chan_trai_bap
+  rotate: true
+  xy: 161, 81
+  size: 39, 61
+  orig: 39, 61
+  offset: 0, 0
+  index: -1
+Chan_trai_dui
+  rotate: false
+  xy: 443, 175
+  size: 44, 56
+  orig: 44, 56
+  offset: 0, 0
+  index: -1
+Dau
+  rotate: false
+  xy: 98, 2
+  size: 59, 70
+  orig: 59, 70
+  offset: 0, 0
+  index: -1
+Tay_phai
+  rotate: false
+  xy: 404, 130
+  size: 40, 39
+  orig: 40, 39
+  offset: 0, 0
+  index: -1
+Tay_phai_bap
+  rotate: true
+  xy: 281, 110
+  size: 30, 47
+  orig: 30, 47
+  offset: 0, 0
+  index: -1
+Tay_phai_canh
+  rotate: true
+  xy: 356, 63
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+Tay_trai
+  rotate: true
+  xy: 276, 70
+  size: 38, 42
+  orig: 38, 42
+  offset: 0, 0
+  index: -1
+Tay_trai_bap
+  rotate: true
+  xy: 446, 130
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1
+Tay_trai_canh
+  rotate: false
+  xy: 320, 69
+  size: 34, 39
+  orig: 34, 39
+  offset: 0, 0
+  index: -1
+Than
+  rotate: true
+  xy: 2, 4
+  size: 68, 94
+  orig: 68, 94
+  offset: 0, 0
+  index: -1
+Wing 1
+  rotate: true
+  xy: 349, 171
+  size: 60, 92
+  orig: 60, 92
+  offset: 0, 0
+  index: -1
+Wing 2
+  rotate: false
+  xy: 281, 142
+  size: 66, 89
+  orig: 66, 89
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bcffb840bad71d268f93de1b232b970, type: 3}
+  m_Name: '2-17'
+  m_EditorClassIdentifier: 
+  code: '2-17'
+  turn1:
+  - 'Android19'
+  - '6'
+  - '18'
+  - 'Cell'
+  - '9'
+  - '18'
+  - 'Android19'
+  - '9'
+  - '18'
+  - 'ShieldmanC2'
+  - '5'
+  - '19'
+  turn2:
+  - 'Cell'
+  - '9'
+  - '19'
+  - 'ShieldmanC2'
+  - '9'
+  - '19'
+  - 'Android19'
+  - '6'
+  - '18'
+  - 'Cell'
+  - '9'
+  - '19'
+  - 'ShieldmanC2'
+  - '9'
+  - '19'
+  turn3:
+  - 'Android19'
+  - '6'
+  - '18'
+  - 'Cell'
+  - '9'
+  - '19'
+  - 'ShieldmanC2'
+  - '9'
+  - '19'
+  - 'Android19'
+  - '6'
+  - '19'
+  - 'Cell'
+  - '9'
+  - '19'
+  - 'ShieldmanC2'
+  - '9'
+  - '19'
+  boss: []
+  materialTurn1: 060000000800000008000000080000000A00000008000000
+  materialTurn2: 0A000000080000000B000000080000000C00000008000000
+  materialTurn3: 060000000800000008000000080000000B000000080000000C00000008000000
+  scroll: 170000001C000000180000001D0000000D000000
+  nameLevel: 'Level 2-17'
+  description: 'This is Level 2-17'
+  exp: 3050
+  gold: 3250

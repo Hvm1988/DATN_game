@@ -1,0 +1,153 @@
+
+Gora.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Chan_phai
+  rotate: false
+  xy: 161, 97
+  size: 27, 20
+  orig: 27, 20
+  offset: 0, 0
+  index: -1
+Chan_phai_bap
+  rotate: false
+  xy: 235, 77
+  size: 31, 40
+  orig: 31, 40
+  offset: 0, 0
+  index: -1
+Chan_phai_dui
+  rotate: false
+  xy: 394, 147
+  size: 48, 44
+  orig: 48, 44
+  offset: 0, 0
+  index: -1
+Chan_trai_bap
+  rotate: true
+  xy: 309, 77
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+Chan_trai_dui
+  rotate: true
+  xy: 395, 102
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+Dau
+  rotate: true
+  xy: 347, 78
+  size: 31, 36
+  orig: 31, 36
+  offset: 0, 0
+  index: -1
+Kiem
+  rotate: true
+  xy: 274, 111
+  size: 32, 119
+  orig: 32, 119
+  offset: 0, 0
+  index: -1
+Mu
+  rotate: true
+  xy: 443, 104
+  size: 41, 44
+  orig: 41, 44
+  offset: 0, 0
+  index: -1
+Skill/2
+  rotate: true
+  xy: 101, 20
+  size: 75, 73
+  orig: 75, 73
+  offset: 0, 0
+  index: -1
+Skill/5
+  rotate: false
+  xy: 161, 119
+  size: 111, 135
+  orig: 111, 135
+  offset: 0, 0
+  index: -1
+Tay_phai
+  rotate: true
+  xy: 176, 22
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+Tay_phai_bap
+  rotate: true
+  xy: 444, 147
+  size: 44, 48
+  orig: 44, 48
+  offset: 0, 0
+  index: -1
+Tay_phai_canh
+  rotate: false
+  xy: 268, 79
+  size: 39, 30
+  orig: 39, 30
+  offset: 0, 0
+  index: -1
+Tay_trai
+  rotate: false
+  xy: 213, 46
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+Tay_trai_bap
+  rotate: false
+  xy: 190, 78
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+Tay_trai_canh
+  rotate: false
+  xy: 176, 48
+  size: 35, 28
+  orig: 35, 28
+  offset: 0, 0
+  index: -1
+Than
+  rotate: true
+  xy: 2, 15
+  size: 80, 97
+  orig: 80, 97
+  offset: 0, 0
+  index: -1
+blood/A
+  rotate: false
+  xy: 274, 145
+  size: 118, 109
+  orig: 118, 109
+  offset: 0, 0
+  index: -1
+blood/B
+  rotate: false
+  xy: 2, 97
+  size: 157, 157
+  orig: 157, 157
+  offset: 0, 0
+  index: -1
+chan_trai
+  rotate: false
+  xy: 176, 2
+  size: 23, 18
+  orig: 23, 18
+  offset: 0, 0
+  index: -1
+vat ao
+  rotate: false
+  xy: 394, 193
+  size: 111, 61
+  orig: 111, 61
+  offset: 0, 0
+  index: -1

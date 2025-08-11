@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bcffb840bad71d268f93de1b232b970, type: 3}
+  m_Name: '2-14'
+  m_EditorClassIdentifier: 
+  code: '2-14'
+  turn1:
+  - 'Android19'
+  - '6'
+  - '17'
+  - 'Cell'
+  - '9'
+  - '17'
+  turn2:
+  - 'Android19'
+  - '6'
+  - '17'
+  - 'ShieldmanC2'
+  - '8'
+  - '17'
+  - 'Cell'
+  - '5'
+  - '18'
+  - 'ShieldmanC2'
+  - '5'
+  - '18'
+  turn3:
+  - 'Android19'
+  - '6'
+  - '17'
+  - 'Cell'
+  - '5'
+  - '18'
+  - 'ShieldmanC2'
+  - '5'
+  - '18'
+  - 'Android19'
+  - '3'
+  - '18'
+  - 'Cell'
+  - '5'
+  - '18'
+  - 'ShieldmanC2'
+  - '9'
+  - '18'
+  boss: []
+  materialTurn1: 02000000080000000A000000080000000B00000008000000
+  materialTurn2: 040000000800000009000000080000000B00000008000000
+  materialTurn3: 040000000800000009000000080000000A00000008000000
+  scroll: 170000001C000000180000001D00000012000000
+  nameLevel: 'Level 2-14'
+  description: 'This is Level 2-14'
+  exp: 2700
+  gold: 2850

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bcffb840bad71d268f93de1b232b970, type: 3}
+  m_Name: '4-11'
+  m_EditorClassIdentifier: 
+  code: '1-11'
+  turn1:
+  - 'Terro'
+  - '5'
+  - '0'
+  - 'Drum'
+  - '5'
+  - '0'
+  turn2:
+  - 'Terro'
+  - '5'
+  - '0'
+  - 'Drum'
+  - '5'
+  - '0'
+  - 'Grian'
+  - '5'
+  - '0'
+  turn3:
+  - 'Terro'
+  - '2'
+  - '0'
+  - 'Drum'
+  - '2'
+  - '0'
+  boss: []
+  materialTurn1: 
+  materialTurn2: 
+  materialTurn3: 
+  scroll: 0000000000000000000000000000000000000000
+  nameLevel: 
+  description: 'This is Level 1-10'
+  exp: 5100
+  gold: 6250

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d15742e3e08f4ea35545be51da70b2, type: 3}
+  m_Name: 'Inventory'
+  m_EditorClassIdentifier: 
+  mainItems:
+  - code: 'ARMOR-SOKU-WHITE'
+    key: 'ARMOR-SOKU-WHITE|1'
+    level: 1
+  - code: 'RING-SOKU-WHITE'
+    key: 'RING-SOKU-WHITE|2'
+    level: 0
+  - code: 'AMULET-SOKU-WHITE'
+    key: 'AMULET-SOKU-WHITE|3'
+    level: 10
+  - code: 'SHOE-SOKU-WHITE'
+    key: 'SHOE-SOKU-WHITE|4'
+    level: 10
+  - code: 'PANTS-SOKU-WHITE'
+    key: 'PANTS-SOKU-WHITE|5'
+    level: 10
+  - code: 'GLOVER-SOKU-WHITE'
+    key: 'GLOVER-SOKU-WHITE|6'
+    level: 10
+  - code: 'RING-SOKU-RED'
+    key: 'RING-SOKU-RED|7'
+    level: 10
+  - code: 'GLOVER-SOKU-YELLOW'
+    key: 'GLOVER-SOKU-YELLOW|8'
+    level: 2
+  resourceItems:
+  - code: 'LINHHON-NAMEX'
+    key: 'LINHHON-NAMEX|40'
+    number: 80
+  - code: 'DRAGON-ENERGY'
+    key: 'DRAGON-ENERGY|42'
+    number: 100
+  - code: 'DA-TINH-ANH'
+    key: 'DA-TINH-ANH|44'
+    number: 50
+  - code: 'DRAGON-ENERGY'
+    key: 'DRAGON-ENERGY|51'
+    number: 40
+  - code: 'RANGNANH-KHIDOT'
+    key: 'RANGNANH-KHIDOT|60'
+    number: 100
+  - code: 'RANGNANH-KHIDOT'
+    key: 'RANGNANH-KHIDOT|64'
+    number: 50
+  - code: 'MAI-RUA'
+    key: 'MAI-RUA|81'
+    number: 100
+  - code: 'MAI-RUA'
+    key: 'MAI-RUA|85'
+    number: 100
+  - code: 'MAI-RUA'
+    key: 'MAI-RUA|89'
+    number: 100
+  - code: 'MAI-RUA'
+    key: 'MAI-RUA|94'
+    number: 60
+  - code: 'GO-TRON'
+    key: 'GO-TRON|104'
+    number: 100
+  - code: 'GO-TRON'
+    key: 'GO-TRON|108'
+    number: 10
+  scrollItems:
+  - code: 'SHOE-SOKU-YELLOW-SCROLL'
+    key: 'SHOE-SOKU-YELLOW-SCROLL|46'
+  attritionItems:
+  - code: 'SILVER-KEY'
+    key: 'SILVER-KEY|2'
+    number: 100
+  - code: 'GOLDEN-KEY'
+    key: 'GOLDEN-KEY|5'
+    number: 10
+  - code: 'DIAMOND-KEY'
+    key: 'DIAMOND-KEY|7'
+    number: 10
+  maxSlotMainItem: 52
+  currentOpenSlotMainItem: 19
+  currentOpenSlotResource: 19
+  currentOpenSlotAttrition: 19
+  freeKey: 010000000000000000000000
