@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class StartMovement : MonoBehaviour
 {
-    [SerializeField] private string _sceneName = "Loading_Intro";
+    [SerializeField] private string _sceneName = "Loading_intro";
 
     public void OnClickStart()
     {

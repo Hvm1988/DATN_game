@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Start.unity
     guid: f1e3c3d1b4894f34087d8685fd1d983a
   - enabled: 1
-    path: Assets/Scenes/LoadingIntro.unity
-    guid: 8b5fff97a83095f40ac7ee48fee9ef27
+    path: Assets/Scenes/Loading_intro.unity
+    guid: a4cc0ae7e0897014381d74e21d2aaf53
   - enabled: 1
     path: Assets/Scenes/Loading.unity
     guid: 1ff4e71f3c1f66f4daa1f5b5c29b5531

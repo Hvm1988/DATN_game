@@ -3,39 +3,40 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd21d76126e33173c56c63537f36d22a, type: 3}
-  m_Name: 'PlayerData'
+  m_Name: PlayerData
   m_EditorClassIdentifier: 
-  name: 
-  armorSlot: 'EMPTY'
-  gloverSlot: 'EMPTY'
-  ringSlot: 'EMPTY'
-  amuletSlot: 'EMPTY'
-  pantsSlot: 'EMPTY'
-  shoeSlot: 'EMPTY'
-  ruby: 78210
-  gold: 1000000
-  energy: 10000
-  skip: 170
-  level: 3
-  hp: 4562
-  exp: 0
-  atk: 314
-  def: 57
-  speed: 0
-  dailyGift: 00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-  totalIAPPurchared: 460
-  rewardIAPStackGift: FFFFFFFF00000000000000000000000000000000
-  rewardGrownGift: FFFFFFFFFFFFFFFFFFFFFFFF
-  totalLevelPassed: 0
-  firstDate: '07/02/2018'
-  totalKillMons: 0
-  bestCombo: 0
-  curVip: 4
-  clickedRate: 0
-  playCount: 0
+  name: Guest26363
+  armorSlot: ARMOR-SOKU-WHITE|1
+  gloverSlot: GLOVER-SOKU-WHITE|6
+  ringSlot: RING-SOKU-WHITE|2
+  amuletSlot: EMPTY
+  pantsSlot: PANTS-SOKU-WHITE|5
+  shoeSlot: SHOE-SOKU-WHITE|4
+  ruby: 2147481528
+  gold: 2144421412
+  energy: 2147483557
+  skip: 99
+  level: 100
+  hp: 1017906
+  exp: 2147483647
+  atk: 100
+  def: 1391
+  speed: 9
+  dailyGift: 0100000001000000010000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  totalIAPPurchared: 0
+  rewardIAPStackGift: ffffffffffffffffffffffffffffffffffffffff
+  rewardGrownGift: 0100000001000000ffffffff
+  totalLevelPassed: 10
+  firstDate: 07/24/2025
+  totalKillMons: 116
+  bestCombo: 13
+  curVip: -1
+  clickedRate: 1
+  playCount: 4
