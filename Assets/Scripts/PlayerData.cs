@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "PlayerData", menuName = "PlayerData")]
@@ -21,9 +21,9 @@ public class PlayerData : DataModel
 	}
 
 	public bool canRewardGrownUp(int id)
-	{
-		return this.rewardGrownGift[id] == 0;
-	}
+{
+    return rewardGrownGift != null && id >= 0 && id < rewardGrownGift.Length && rewardGrownGift[id] == 0;
+}
 
 	public void refreshIapStackGift()
 	{
@@ -43,21 +43,18 @@ public class PlayerData : DataModel
 		this.save();
 	}
 
-	public void rewardGrownUp(int id)
-	{
-		this.rewardGrownGift[id] = 1;
-		if (GrownGiftNotifier.Instance != null)
-		{
-			GrownGiftNotifier.Instance.setUI();
-		}
-		if (EventNotifier.Instance != null)
-		{
-			EventNotifier.Instance.setUI();
-		}
-		this.save();
-	}
+    public void rewardGrownUp(int id)
+    {
+        if (rewardGrownGift != null && id >= 0 && id < rewardGrownGift.Length)
+        {
+            rewardGrownGift[id] = 1;
+            GrownGiftNotifier.Instance?.setUI();
+            EventNotifier.Instance?.setUI();
+            save();
+        }
+    }
 
-	public void refreshGrownGift()
+    public void refreshGrownGift()
 	{
 		for (int i = 0; i < DataHolder.Instance.grownGiftDefine.growGifts.Length; i++)
 		{
@@ -77,48 +74,39 @@ public class PlayerData : DataModel
 		this.save();
 	}
 
-	public int getFirstLockRewardIAP()
-	{
-		for (int i = 0; i < this.rewardIAPStackGift.Length; i++)
-		{
-			if (this.rewardIAPStackGift[i] == -1)
-			{
-				return i;
-			}
-		}
-		return -1;
-	}
+    public int getFirstLockRewardIAP()
+    {
+        if (rewardIAPStackGift == null) return -1;
+        for (int i = 0; i < rewardIAPStackGift.Length; i++)
+            if (rewardIAPStackGift[i] == -1) return i;
+        return -1;
+    }
 
-	public int getFirstCanRewardIAP()
-	{
-		for (int i = 0; i < this.rewardIAPStackGift.Length; i++)
-		{
-			if (this.rewardIAPStackGift[i] == 0)
-			{
-				return i;
-			}
-		}
-		return -1;
-	}
+    public int getFirstCanRewardIAP()
+    {
+        if (rewardIAPStackGift == null) return -1;
+        for (int i = 0; i < rewardIAPStackGift.Length; i++)
+            if (rewardIAPStackGift[i] == 0) return i;
+        return -1;
+    }
 
-	public int getCurrentVip()
-	{
-		for (int i = DataHolder.Instance.playerDefine.iapGiftPoint.Length - 1; i >= 0; i--)
-		{
-			if (DataHolder.Instance.playerDefine.iapGiftPoint[i] <= this.totalIAPPurchared)
-			{
-				return i;
-			}
-		}
-		return -1;
-	}
+    public int getCurrentVip()
+    {
+        var pts = DataHolder.Instance.playerDefine.iapGiftPoint;
+        if (pts == null || pts.Length == 0) return -1;
+        for (int i = pts.Length - 1; i >= 0; i--)
+            if (pts[i] <= totalIAPPurchared) return i;
+        return -1;
+    }
 
-	public bool haveRewardIAPStack()
-	{
-		return this.curVip != -1 && this.rewardIAPStackGift[this.curVip] == 0;
-	}
+    public bool haveRewardIAPStack()
+    {
+        return curVip >= 0 && rewardIAPStackGift != null
+            && curVip < rewardIAPStackGift.Length
+            && rewardIAPStackGift[curVip] == 0;
+    }
 
-	public void addTotalIAPPurchared(float value)
+    public void addTotalIAPPurchared(float value)
 	{
 		UnityEngine.Debug.Log("addTotalIAPPurchared");
 		this.totalIAPPurchared += value;
@@ -138,13 +126,16 @@ public class PlayerData : DataModel
 		this.save();
 	}
 
-	public void setRewardIAPStackGift(int index, int value)
-	{
-		this.rewardIAPStackGift[index] = value;
-		this.save();
-	}
+    public void setRewardIAPStackGift(int index, int value)
+    {
+        if (rewardIAPStackGift != null && index >= 0 && index < rewardIAPStackGift.Length)
+        {
+            rewardIAPStackGift[index] = value;
+            save();
+        }
+    }
 
-	public void unlockNextGiftDay()
+    public void unlockNextGiftDay()
 	{
 		for (int i = 0; i < this.dailyGift.Length; i++)
 		{
@@ -157,13 +148,16 @@ public class PlayerData : DataModel
 		}
 	}
 
-	public void rewardDailyGift(int id)
-	{
-		this.dailyGift[id] = 1;
-		this.save();
-	}
+    public void rewardDailyGift(int id)
+    {
+        if (dailyGift != null && id >= 0 && id < dailyGift.Length)
+        {
+            dailyGift[id] = 1;
+            save();
+        }
+    }
 
-	public int getFirstLockGift()
+    public int getFirstLockGift()
 	{
 		for (int i = 0; i < this.dailyGift.Length; i++)
 		{
@@ -306,57 +300,61 @@ public class PlayerData : DataModel
 		}
 	}
 
-	public int getNextLevelExp()
-	{
-		if (this.level == 99)
-		{
-			return -1;
-		}
-		return DataHolder.Instance.playerDefine.getEXP(this.level + 1);
-	}
+    public int getNextLevelExp()
+    {
+        var def = DataHolder.Instance.playerDefine;
+        int maxLv = def != null ? def.MaxLevel : 0;
 
-	public float getExpFloat()
-	{
-		float num = (float)this.exp;
-		float num2 = (float)this.getNextLevelExp();
-		return num / num2;
-	}
+        // max hoặc không có bảng -> không cần EXP tiếp
+        if (maxLv <= 0 || level >= maxLv) return 0;
 
-	public int getExpPercent()
-	{
-		float num = this.getExpFloat() * 100f;
-		return (int)num;
-	}
+        // level+1 an toàn vì PlayerDefine đã clamp
+        return def.getEXP(level + 1);
+    }
+    public float getExpFloat()
+    {
+        int next = getNextLevelExp();
+        if (next <= 0) return 1f;                  // đã max
+        return Mathf.Clamp01(exp / (float)next);   // tránh chia 0
+    }
 
-	public void addExp(int value)
-	{
-		if (this.level == 99)
-		{
-			return;
-		}
-		int num = this.exp + value;
-		if (num >= this.getNextLevelExp())
-		{
-			int value2 = num - this.getNextLevelExp();
-			this.exp = 0;
-			this.level++;
 
-			DataHolder.Instance.achievementData.addDone(null, "REACH-LEVEL", 1);
-			this.refreshGrownGift();
-			this.addExp(value2);
-			this.reCalStat();
-		}
-		else
-		{
-			this.exp = num;
-		}
-		if (CounterFather.Instance != null)
-		{
-			CounterFather.Instance.changePlayerStat();
-		}
-	}
+    public int getExpPercent()
+    {
+        return Mathf.RoundToInt(getExpFloat() * 100f);
+    }
 
-	public void calHP()
+
+    public void addExp(int value)
+    {
+        if (value <= 0) return;
+
+        var def = DataHolder.Instance.playerDefine;
+        int maxLv = def != null ? def.MaxLevel : 0;
+        if (maxLv <= 0) return;
+
+        // gộp exp, lên cấp nhiều lần nếu đủ
+        exp += value;
+
+        while (level < maxLv)
+        {
+            int need = getNextLevelExp();     // 0 nếu max
+            if (need <= 0) { exp = 0; break; }
+            if (exp < need) break;
+
+            exp -= need;
+            level++;
+
+            DataHolder.Instance.achievementData.addDone(null, "REACH-LEVEL", 1);
+            refreshGrownGift();
+            reCalStat();
+        }
+
+        if (CounterFather.Instance != null)
+            CounterFather.Instance.changePlayerStat();
+    }
+
+    public void calHP()
 	{
 		PlayerDefine playerDefine = DataHolder.Instance.playerDefine;
 		int num = playerDefine.getHP(this.level);

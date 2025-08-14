@@ -16,27 +16,27 @@ MonoBehaviour:
   armorSlot: ARMOR-SOKU-WHITE|1
   gloverSlot: GLOVER-SOKU-WHITE|6
   ringSlot: RING-SOKU-WHITE|2
-  amuletSlot: EMPTY
+  amuletSlot: AMULET-SOKU-WHITE|3
   pantsSlot: PANTS-SOKU-WHITE|5
   shoeSlot: SHOE-SOKU-WHITE|4
-  ruby: 2147481528
-  gold: 2144421412
-  energy: 2147483557
-  skip: 99
-  level: 100
-  hp: 1017906
-  exp: 2147483647
-  atk: 100
-  def: 1391
+  ruby: 1000
+  gold: 1000
+  energy: 1000
+  skip: 1000
+  level: 1000
+  hp: 1000
+  exp: 1000
+  atk: 10000
+  def: 1000
   speed: 9
-  dailyGift: 0100000001000000010000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  dailyGift: 010000000100000001000000010000000100000001000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
   totalIAPPurchared: 0
   rewardIAPStackGift: ffffffffffffffffffffffffffffffffffffffff
   rewardGrownGift: 0100000001000000ffffffff
-  totalLevelPassed: 10
+  totalLevelPassed: 15
   firstDate: 07/24/2025
-  totalKillMons: 116
-  bestCombo: 13
+  totalKillMons: 319
+  bestCombo: 15
   curVip: -1
   clickedRate: 1
   playCount: 4

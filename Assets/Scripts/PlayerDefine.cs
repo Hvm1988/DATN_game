@@ -1,67 +1,73 @@
-using System;
+﻿using System;
+using System.Globalization;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Inventory", menuName = "Game Data/Player Define")]
+[CreateAssetMenu(fileName = "PlayerDefine", menuName = "Game Data/Player Define")]
 public class PlayerDefine : DataModel
 {
-	public override void initFirstTime()
-	{
-	}
+    // Cột trong mỗi dòng playerStats: "ATK,HP,DEF,EXP"
+    public const int COL_ATK = 0;
+    public const int COL_HP = 1;
+    public const int COL_DEF = 2;
+    public const int COL_EXP = 3;
 
-	public override void loadFromFireBase()
-	{
-		
-	}
+    public int MaxLevel => playerStats != null ? playerStats.Length : 0;
 
-	public int getATK(int curlevel)
-	{
-		double x = this.increDamagePerLevel / 100.0 + 1.0;
-		float num = (float)Math.Pow(x, (double)curlevel);
-		return (int)((float)this.baseDamage * num);
-	}
+    public override void initFirstTime() { }
+    public override void loadFromFireBase() { }
 
-	public int getHP(int curlevel)
-	{
-		double x = this.increHpPerLevel / 100.0 + 1.0;
-		float num = (float)Math.Pow(x, (double)curlevel);
-		return (int)((float)this.baseHp * num);
-	}
+    // Base stat tăng theo cấp (hàm mũ, an toàn với cấp âm)
+    public int getATK(int curlevel)
+    {
+        double f = increDamagePerLevel / 100.0 + 1.0;
+        return (int)(baseDamage * Math.Pow(f, Math.Max(0, curlevel)));
+    }
 
-	public int getDEF(int curlevel)
-	{
-		double x = this.increDefPerLevel / 100.0 + 1.0;
-		float num = (float)Math.Pow(x, (double)curlevel);
-		return (int)((float)this.baseDef * num);
-	}
+    public int getHP(int curlevel)
+    {
+        double f = increHpPerLevel / 100.0 + 1.0;
+        return (int)(baseHp * Math.Pow(f, Math.Max(0, curlevel)));
+    }
 
-	public int getEXP(int curlevel)
-	{
-		return this.getValueStat(curlevel, 3);
-	}
+    public int getDEF(int curlevel)
+    {
+        double f = increDefPerLevel / 100.0 + 1.0;
+        return (int)(baseDef * Math.Pow(f, Math.Max(0, curlevel)));
+    }
 
-	private int getValueStat(int level, int type)
-	{
-		string text = this.playerStats[level];
-		string[] array = text.Split(new char[]
-		{
-			','
-		});
-		return int.Parse(array[type]);
-	}
+    // EXP theo bảng
+    public int getEXP(int curlevel) => getValueStat(curlevel, COL_EXP);
 
-	public string[] playerStats;
+    // Lấy giá trị từ bảng playerStats theo (level,type) an toàn, không out-of-range
+    public int getValueStat(int level, int type)
+    {
+        if (playerStats == null || playerStats.Length == 0) return 0;
 
-	public int baseDef;
+        int lvlIdx = Mathf.Clamp(level - 1, 0, playerStats.Length - 1); // level 1..N -> index 0..N-1
+        string row = playerStats[lvlIdx] ?? string.Empty;
 
-	public int baseDamage;
+        string[] parts = row.Split(new[] { ',' }, StringSplitOptions.None);
+        if (parts == null || parts.Length == 0) return 0;
 
-	public int baseHp;
+        int colIdx = Mathf.Clamp(type, 0, parts.Length - 1);
 
-	public double increDefPerLevel;
+        if (int.TryParse(parts[colIdx].Trim(), NumberStyles.Integer, CultureInfo.InvariantCulture, out int val))
+            return val;
 
-	public double increDamagePerLevel;
+        return 0;
+    }
 
-	public double increHpPerLevel;
+    // Dữ liệu
+    [Tooltip("Mỗi phần tử là một cấp. Chuỗi dạng: ATK,HP,DEF,EXP")]
+    public string[] playerStats;
 
-	public float[] iapGiftPoint;
+    public int baseDef;
+    public int baseDamage;
+    public int baseHp;
+
+    public double increDefPerLevel;
+    public double increDamagePerLevel;
+    public double increHpPerLevel;
+
+    public float[] iapGiftPoint;
 }

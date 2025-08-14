@@ -1,78 +1,66 @@
-using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class MainItemInfoPop : ItemInfoPop
 {
-	public override void init(ItemInven item)
-	{
-		this.item = item;
-		this.setUI(null);
-	}
+    public Text[] opNumbers;
+    public Text[] opDes;
+    public Button equippBtn;
+    public Text equippText;
 
-	private void OnEnable()
-	{
-		InventoryManager.onRefresh += this.setUI;
-	}
+    private ItemInven item;
 
-	private void OnDisable()
-	{
-		InventoryManager.onRefresh -= this.setUI;
-	}
+    public override void init(ItemInven item)
+    {
+        this.item = item;
+        setUI(null);
+    }
 
-	public override void setUI(NItem item = null)
-	{
-		MainItem mainByCode = DataHolder.Instance.mainItemsDefine.getMainByCode(this.item.code);
-		base.setUI(mainByCode);
-		for (int i = 0; i < this.opDes.Length; i++)
-		{
-			if (i < mainByCode.optionItem.Count)
-			{
-				this.opDes[i].enabled = true;
-				this.opDes[i].text = mainByCode.optionItem[i].getOpDesRichText(((MainItemInven)this.item).level);
-			}
-			else
-			{
-				this.opDes[i].enabled = false;
-			}
-		}
-		if (DataHolder.Instance.playerData.isEquipped(mainByCode.getItemType(), this.item.key))
-		{
-			this.equippText.text = "UnEquip";
-		}
-		else
-		{
-			this.equippText.text = "Equip";
-		}
-	}
+    private void OnEnable() { InventoryManager.onRefresh += setUI; }
+    private void OnDisable() { InventoryManager.onRefresh -= setUI; }
 
-	public void equipOnclick()
-	{
-		MainItem mainByCode = DataHolder.Instance.mainItemsDefine.getMainByCode(this.item.code);
-		UnityEngine.Debug.Log(mainByCode.code);
-		if (DataHolder.Instance.playerData.isEquipped(mainByCode.getItemType(), this.item.key))
-		{
-			DataHolder.Instance.playerData.UnEquippItem(mainByCode.getItemType());
-		}
-		else
-		{
-			DataHolder.Instance.playerData.equippItem(mainByCode.getItemType(), this.item.key);
-		}
-		InventoryManager.Instance.refresh();
-		UpgradeNotifier.Instance.refresh();
-	}
+    public override void setUI(NItem _ = null)
+    {
+        if (item == null) return;
 
-	public override void sell()
-	{
-		base.gameObject.SetActive(false);
-		InventoryManager.Instance.showSellPop(this.item);
-	}
+        var def = DataHolder.Instance.mainItemsDefine.getMainByCode(item.code);
+        base.setUI(def);
 
-	public Text[] opNumbers;
+        int lvl = (item is MainItemInven mii) ? mii.level : 0;
+        for (int i = 0; i < opDes.Length; i++)
+        {
+            if (def != null && i < def.optionItem.Count)
+            {
+                opDes[i].enabled = true;
+                opDes[i].text = def.optionItem[i].getOpDesRichText(lvl);
+            }
+            else opDes[i].enabled = false;
+        }
 
-	public Text[] opDes;
+        var type = def.getItemType();
+        bool equipped = DataHolder.Instance.playerData.isEquipped(type, item.key); // dùng KEY
+        equippText.text = equipped ? "UnEquip" : "Equip";
+        if (equippBtn) equippBtn.interactable = true;
+    }
 
-	public Button equippBtn;
+    public void equipOnclick()
+    {
+        if (item == null) return;
+        var def = DataHolder.Instance.mainItemsDefine.getMainByCode(item.code);
+        var type = def.getItemType();
 
-	public Text equippText;
+        bool equipped = DataHolder.Instance.playerData.isEquipped(type, item.key); // dùng KEY
+        if (equipped) DataHolder.Instance.playerData.UnEquippItem(type);
+        else DataHolder.Instance.playerData.equippItem(type, item.key);
+
+        InventoryManager.Instance.refresh();
+        UpgradeNotifier.Instance.refresh();
+        setUI(null);
+    }
+
+    public override void sell()
+    {
+        gameObject.SetActive(false);
+        InventoryManager.Instance.showSellPop(this.item);
+    }
 }

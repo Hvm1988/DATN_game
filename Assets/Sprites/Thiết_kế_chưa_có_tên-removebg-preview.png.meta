@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,29 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "Thi\u1EBFt_k\u1EBF_ch\u01B0a_c\xF3_t\xEAn-removebg-preview_0"
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 115
+        width: 285
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d18414377cea344a843494c11170a20
+      internalID: 744099202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -135,7 +157,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Thi\u1EBFt_k\u1EBF_ch\u01B0a_c\xF3_t\xEAn-removebg-preview_0": 744099202
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

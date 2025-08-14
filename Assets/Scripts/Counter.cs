@@ -4,7 +4,10 @@ using UnityEngine.UI;
 
 public class Counter : MonoBehaviour
 {
-	private void Awake()
+
+    public void RefreshStatsUI() => onChangePlayerStat();   // <- thêm dòng này
+
+    private void Awake()
 	{
 		this.text = base.GetComponent<Text>();
 		this.slider = base.GetComponent<Image>();
