@@ -303,20 +303,16 @@ public class PlayerData : DataModel
     public int getNextLevelExp()
     {
         var def = DataHolder.Instance.playerDefine;
-        int maxLv = def != null ? def.MaxLevel : 0;
-
-        // max hoặc không có bảng -> không cần EXP tiếp
-        if (maxLv <= 0 || level >= maxLv) return 0;
-
-        // level+1 an toàn vì PlayerDefine đã clamp
-        return def.getEXP(level + 1);
+        return def ? def.GetExpToNext_1Based(level) : 0;   // level là 1-based
     }
+
     public float getExpFloat()
     {
-        int next = getNextLevelExp();
-        if (next <= 0) return 1f;                  // đã max
-        return Mathf.Clamp01(exp / (float)next);   // tránh chia 0
+        int need = getNextLevelExp();
+        if (need <= 0) return 1f;
+        return Mathf.Clamp01(exp / (float)need);
     }
+
 
 
     public int getExpPercent()
@@ -330,30 +326,24 @@ public class PlayerData : DataModel
         if (value <= 0) return;
 
         var def = DataHolder.Instance.playerDefine;
-        int maxLv = def != null ? def.MaxLevel : 0;
-        if (maxLv <= 0) return;
+        if (!def) return;
 
-        // gộp exp, lên cấp nhiều lần nếu đủ
         exp += value;
+        int guard = 100;
+        int need = def.GetExpToNext_1Based(level);
 
-        while (level < maxLv)
+        while (need > 0 && exp >= need && guard-- > 0)
         {
-            int need = getNextLevelExp();     // 0 nếu max
-            if (need <= 0) { exp = 0; break; }
-            if (exp < need) break;
-
             exp -= need;
-            level++;
-
+            level = Mathf.Min(level + 1, def.MaxLevel);   // 1-based
             DataHolder.Instance.achievementData.addDone(null, "REACH-LEVEL", 1);
             refreshGrownGift();
             reCalStat();
+            need = def.GetExpToNext_1Based(level);
         }
 
-        if (CounterFather.Instance != null)
-            CounterFather.Instance.changePlayerStat();
+        CounterFather.Instance?.changePlayerStat();
     }
-
     public void calHP()
 	{
 		PlayerDefine playerDefine = DataHolder.Instance.playerDefine;

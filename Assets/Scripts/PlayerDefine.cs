@@ -5,6 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "PlayerDefine", menuName = "Game Data/Player Define")]
 public class PlayerDefine : DataModel
 {
+    public bool expIsCumulative = true; // true: cột EXP là TỔNG tích lũy tới cấp đó. false: EXP để lên từ L -> L+1
+
     // Cột trong mỗi dòng playerStats: "ATK,HP,DEF,EXP"
     public const int COL_ATK = 0;
     public const int COL_HP = 1;
@@ -56,7 +58,23 @@ public class PlayerDefine : DataModel
 
         return 0;
     }
+    public int GetExpToNext_1Based(int level)
+    {
+        int max = MaxLevel;
+        if (max <= 0 || level >= max) return 0;              // đã max
 
+        if (expIsCumulative)
+        {
+            int curTotal = getEXP(Mathf.Clamp(level, 1, max));   // tổng tới L
+            int nextTotal = getEXP(Mathf.Clamp(level + 1, 1, max));   // tổng tới L+1
+            return Mathf.Max(1, nextTotal - curTotal);
+        }
+        else
+        {
+            // Bảng lưu EXP cần cho từng cấp: hàng L là cost để lên L+1
+            return Mathf.Max(1, getEXP(Mathf.Clamp(level, 1, max)));
+        }
+    }
     // Dữ liệu
     [Tooltip("Mỗi phần tử là một cấp. Chuỗi dạng: ATK,HP,DEF,EXP")]
     public string[] playerStats;
