@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -51,13 +51,17 @@ namespace Shop
 			}
 		}
 
-		public void onClickBuy()
-		{
-			this.packageData.buy();
+        public void onClickBuy()
+        {
+            // map name -> productId nếu cần, ở demo dùng luôn name
+            string productId = this.name;
 
-		}
+            Services.IAP.Buy(productId,
+                ok: () => { this.packageData.buy(); },           // cộng vật phẩm ngay
+                fail: (err) => { UnityEngine.Debug.LogWarning(err); });
+        }
 
-		public new string name;
+        public new string name;
 
 		public GameObject itemPrefaps;
 

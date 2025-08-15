@@ -32,24 +32,15 @@ public class VideoGift : MonoBehaviour
 		AdsManager.AdNumbers = 1;
 		SoundManager.Instance.playAudio("ButtonClick");
 		this.curId = id;
-		AdsController.Instance.showRewardVideo(delegate
-		{
-			try
-			{
-				UnityEngine.Debug.Log("=============reward");
-				this.gifts[this.curId].reward();
-				DataHolder.Instance.videoGiftData.reward(this.curId);
-				this.setUI();
-			}
-			catch (Exception ex)
-			{
-				UnityEngine.Debug.Log(ex.Message);
-			}
-		}, delegate
-		{
-			this.vidNotReady.SetActive(true);
-		});
-	}
+        Services.Ads.ShowReward(
+    ok: () => {
+        gifts[curId].reward();
+        DataHolder.Instance.videoGiftData.reward(curId);
+        setUI();
+    },
+    fail: () => { vidNotReady.SetActive(true); }
+);
+    }
 
 	//public UnityAds unityAds;
 
