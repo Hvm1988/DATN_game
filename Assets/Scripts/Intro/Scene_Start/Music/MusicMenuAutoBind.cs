@@ -94,19 +94,22 @@ public class MusicMenuAutoBind : MonoBehaviour
             string destName = "user_bgm" + ext;
             string dest = Path.Combine(Application.persistentDataPath, destName);
 
+            // Lưu ý: dùng plugin → path luôn là file thật. Nếu plugin trả content:// thì phải dùng plugin đó để copy.
             File.Copy(fullPath, dest, true);
             Debug.Log($"[BGM] Copied to: {dest}");
 
-            PlayerPrefs.SetInt("bgm.type", 1);      // Custom
-            PlayerPrefs.SetString("bgm.custom", destName);
+            PlayerPrefs.SetInt(K_TYPE, (int)T.Custom);
+            PlayerPrefs.SetString(K_PATH, destName);
             PlayerPrefs.Save();
+
+            // phát ngay, không cần vào lại game
+            StartCoroutine(LoadAndPlayFromPath(dest));
         }
         catch (System.Exception e)
         {
             Debug.LogError("[BGM] Copy failed: " + e);
         }
     }
-
     IEnumerator LoadAndPlayFromPath(string full)
     {
         string url = "file://" + full.Replace("\\", "/");
