@@ -1,95 +1,58 @@
-using System;
+﻿using System;
 using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-	private void Awake()
-	{
-		SoundManager.Instance = this;
-	}
+    public static SoundManager Instance;
 
-	private void OnEnable()
-	{
-		Setting.onChangeVolume += this.onChangeVolume;
-	}
+    [Header("Sources")]
+    public AudioSource bgAudioSource; // NHẠC NỀN
+    public AudioSource audioSource;   // SFX
 
-	private void OnDisable()
-	{
-		Setting.onChangeVolume -= this.onChangeVolume;
-	}
+    [Header("Clips SFX")]
+    public AudioClip payGold, payRuby, popUpOpen, payPurchaser, buttonClick, back, unlock;
 
-	private void Start()
-	{
-		if (!PlayerPrefs.HasKey("MUSIC_VOLUME"))
-		{
-			PlayerPrefs.SetFloat("MUSIC_VOLUME", 1f);
-		}
-		if (!PlayerPrefs.HasKey("SOUND_VOLUME"))
-		{
-			PlayerPrefs.SetFloat("SOUND_VOLUME", 1f);
-		}
-		this.onChangeVolume();
-	}
+    public float volume; // SFX volume cache
 
-	private void onChangeVolume()
-	{
-		this.volume = PlayerPrefs.GetFloat("SOUND_VOLUME");
-		this.bgAudioSource.volume = PlayerPrefs.GetFloat("MUSIC_VOLUME");
-	}
+    void Awake() { Instance = this; }
 
-	public void playAudioWithRefresh(string name)
-	{
-		this.volume = PlayerPrefs.GetFloat("SOUND_VOLUME");
-		this.playAudio(name);
-	}
+    void OnEnable() { Setting.onChangeVolume += onChangeVolume; }
+    void OnDisable() { Setting.onChangeVolume -= onChangeVolume; }
 
-	public void playAudio(string name)
-	{
-		switch (name)
-		{
-		case "PayGold":
-			this.audioSource.PlayOneShot(this.payGold, this.volume);
-			break;
-		case "PayRuby":
-			this.audioSource.PlayOneShot(this.payRuby, this.volume);
-			break;
-		case "PopUpOpen":
-			this.audioSource.PlayOneShot(this.popUpOpen, this.volume * 1.3f);
-			break;
-		case "PayPurchaser":
-			this.audioSource.PlayOneShot(this.payPurchaser, this.volume);
-			break;
-		case "ButtonClick":
-			this.audioSource.PlayOneShot(this.buttonClick, this.volume * 0.8f);
-			break;
-		case "Back":
-			this.audioSource.PlayOneShot(this.back, this.volume);
-			break;
-		case "Unlock":
-			this.audioSource.PlayOneShot(this.unlock, this.volume * 2f);
-			break;
-		}
-	}
+    void Start()
+    {
+        if (!PlayerPrefs.HasKey("MUSIC_VOLUME")) PlayerPrefs.SetFloat("MUSIC_VOLUME", 1f);
+        if (!PlayerPrefs.HasKey("SOUND_VOLUME")) PlayerPrefs.SetFloat("SOUND_VOLUME", 1f);
+        onChangeVolume();
+    }
 
-	public static SoundManager Instance;
+    public void ApplyVolumes()
+    {
+        volume = PlayerPrefs.GetFloat("SOUND_VOLUME", 1f);
+        if (audioSource) audioSource.volume = volume;
+        if (bgAudioSource) bgAudioSource.volume = PlayerPrefs.GetFloat("MUSIC_VOLUME", 1f);
+    }
 
-	public AudioSource bgAudioSource;
+    void onChangeVolume() => ApplyVolumes();
 
-	public AudioSource audioSource;
+    public void playAudioWithRefresh(string name)
+    {
+        volume = PlayerPrefs.GetFloat("SOUND_VOLUME", 1f);
+        playAudio(name);
+    }
 
-	public AudioClip payGold;
-
-	public AudioClip payRuby;
-
-	public AudioClip popUpOpen;
-
-	public AudioClip payPurchaser;
-
-	public AudioClip buttonClick;
-
-	public AudioClip back;
-
-	public AudioClip unlock;
-
-	public float volume;
+    public void playAudio(string name)
+    {
+        switch (name)
+        {
+            case "PayGold": audioSource.PlayOneShot(payGold, volume); break;
+            case "PayRuby": audioSource.PlayOneShot(payRuby, volume); break;
+            case "PopUpOpen": audioSource.PlayOneShot(popUpOpen, volume * 1.3f); break;
+            case "PayPurchaser": audioSource.PlayOneShot(payPurchaser, volume); break;
+            case "ButtonClick": audioSource.PlayOneShot(buttonClick, volume * 0.8f); break;
+            case "Back": audioSource.PlayOneShot(back, volume); break;
+            case "Unlock": audioSource.PlayOneShot(unlock, volume * 2f); break;
+        }
+    }
 }
+
