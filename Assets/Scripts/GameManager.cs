@@ -148,7 +148,7 @@ public class GameManager : MonoBehaviour
 		if (GameManager.numGame == 1)
 		{
 			this.playAudio(this.ui_start);
-			this.pointAnimator.Play("point1");
+		// 	this.pointAnimator.Play("point1"); --------------------------------------------------------------------------------------
 			this.doorLeft.transform.position = new Vector3(-5.5f, 0f, 0f);
 			this.doorRight.transform.position = new Vector3(22.5f, 0f, 0f);
 			this.cam.zoneLeft = 2f;
@@ -168,7 +168,7 @@ public class GameManager : MonoBehaviour
 			this.cam.zoneLeft = 30f;
 			this.doorLeft.transform.position = new Vector3(22.5f, 0f, 0f);
 			this.doorRight.transform.position = new Vector3(50.5f, 0f, 0f);
-			this.pointAnimator.Play("point2");
+			//this.pointAnimator.Play("point2"); ---------------------------------------------------------------------------------------------------------------------
 			this.num_1s = this.enemiesTurn2.Count / 2;
 			this.num_2s = (int)((float)(this.enemiesTurn2.Count - this.num_1s) * 0.35f);
 			this.num_die = this.num_2s;
@@ -186,7 +186,7 @@ public class GameManager : MonoBehaviour
 			this.cam.zoneLeft = 58f;
 			this.doorLeft.transform.position = new Vector3(50.5f, 0f, 0f);
 			this.doorRight.transform.position = new Vector3(78.5f, 0f, 0f);
-			this.pointAnimator.Play("point3");
+		//	this.pointAnimator.Play("point3"); -----------------------------------------------------------------------------------------------------------------------
 			this.num_1s = this.enemiesTurn3.Count / 2;
 			this.num_2s = (int)((float)(this.enemiesTurn3.Count - this.num_1s) * 0.35f);
 			this.num_die = this.num_2s;
@@ -589,7 +589,7 @@ public class GameManager : MonoBehaviour
 		Timer.ins.endTimeCountDown();
 		Time.timeScale = 0.5f;
 		GameResult.ins.show(true, 3f);
-		this.pointAnimator.Play("point4");
+	//	this.pointAnimator.Play("point4");-----------------------------------------------------------------------------
 		this.bgAudio.Stop();
 		base.StartCoroutine(this.delayVictory());
 	}
